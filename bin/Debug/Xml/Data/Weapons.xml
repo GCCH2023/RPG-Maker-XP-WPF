@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWeapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapon xsi:nil="true" />
+  <Weapon>
+    <id>1</id>
+    <name>铜剑</name>
+    <icon_name>001-Weapon01</icon_name>
+    <description>青铜制造的剑。战士可以装备。</description>
+    <price>500</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>7</animation2_id>
+    <atk>112</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>2</id>
+    <name>铁剑</name>
+    <icon_name>001-Weapon01</icon_name>
+    <description>铁制造的剑。战士可以装备。</description>
+    <price>1200</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>7</animation2_id>
+    <atk>140</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>3</id>
+    <name>钢剑</name>
+    <icon_name>001-Weapon01</icon_name>
+    <description>钢制造的剑。战士可以装备。</description>
+    <price>3200</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>7</animation2_id>
+    <atk>175</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>4</id>
+    <name>密斯利尔剑</name>
+    <icon_name>001-Weapon01</icon_name>
+    <description>最高级的剑。战士可以装备。</description>
+    <price>7800</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>7</animation2_id>
+    <atk>218</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>5</id>
+    <name>铜枪</name>
+    <icon_name>002-Weapon02</icon_name>
+    <description>青铜制造的枪。枪兵可以装备。</description>
+    <price>490</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>8</animation2_id>
+    <atk>110</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>6</id>
+    <name>铁枪</name>
+    <icon_name>002-Weapon02</icon_name>
+    <description>铁制造的枪。枪兵可以装备。</description>
+    <price>1200</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>8</animation2_id>
+    <atk>137</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>7</id>
+    <name>钢枪</name>
+    <icon_name>002-Weapon02</icon_name>
+    <description>钢制造的枪。枪兵可以装备。</description>
+    <price>3000</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>8</animation2_id>
+    <atk>171</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>8</id>
+    <name>密斯利尔枪</name>
+    <icon_name>002-Weapon02</icon_name>
+    <description>最高级的枪。枪兵可以装备。</description>
+    <price>7600</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>8</animation2_id>
+    <atk>214</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>9</id>
+    <name>铜斧</name>
+    <icon_name>003-Weapon03</icon_name>
+    <description>青铜制造的斧。狂战士可以装备。</description>
+    <price>520</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>9</animation2_id>
+    <atk>114</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>10</id>
+    <name>铁斧</name>
+    <icon_name>003-Weapon03</icon_name>
+    <description>铁制造的斧。狂战士可以装备。</description>
+    <price>1300</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>9</animation2_id>
+    <atk>142</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>11</id>
+    <name>钢斧</name>
+    <icon_name>003-Weapon03</icon_name>
+    <description>钢制造的斧。狂战士可以装备。</description>
+    <price>3200</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>9</animation2_id>
+    <atk>178</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>12</id>
+    <name>密斯利尔斧</name>
+    <icon_name>003-Weapon03</icon_name>
+    <description>最高级的斧。狂战士可以装备。</description>
+    <price>8000</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>9</animation2_id>
+    <atk>222</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>13</id>
+    <name>铜匕首</name>
+    <icon_name>004-Weapon04</icon_name>
+    <description>青铜制造的短剑。盗贼可以装备。</description>
+    <price>400</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>10</animation2_id>
+    <atk>108</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>14</id>
+    <name>铁匕首</name>
+    <icon_name>004-Weapon04</icon_name>
+    <description>铁制造的短剑。盗贼可以装备。</description>
+    <price>1000</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>10</animation2_id>
+    <atk>135</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>15</id>
+    <name>钢匕首</name>
+    <icon_name>004-Weapon04</icon_name>
+    <description>钢制造的短剑。盗贼可以装备。</description>
+    <price>4500</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>10</animation2_id>
+    <atk>168</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>16</id>
+    <name>密斯利尔匕首</name>
+    <icon_name>004-Weapon04</icon_name>
+    <description>最高级的短剑。盗贼可以装备。</description>
+    <price>6200</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>10</animation2_id>
+    <atk>210</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>17</id>
+    <name>铜弓</name>
+    <icon_name>005-Weapon05</icon_name>
+    <description>青铜制造的弓。猎人可以装备。</description>
+    <price>470</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>11</animation2_id>
+    <atk>111</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>18</id>
+    <name>铁弓</name>
+    <icon_name>005-Weapon05</icon_name>
+    <description>铁制造的弓。猎人可以装备。</description>
+    <price>1200</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>11</animation2_id>
+    <atk>138</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>19</id>
+    <name>钢弓</name>
+    <icon_name>005-Weapon05</icon_name>
+    <description>钢制造的弓。猎人可以装备。</description>
+    <price>2900</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>11</animation2_id>
+    <atk>173</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>20</id>
+    <name>密斯利尔弓</name>
+    <icon_name>005-Weapon05</icon_name>
+    <description>最高级的弓。猎人可以装备。</description>
+    <price>7300</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>11</animation2_id>
+    <atk>216</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>21</id>
+    <name>铜铳</name>
+    <icon_name>006-Weapon06</icon_name>
+    <description>青铜制造的铳。枪手可以装备。</description>
+    <price>550</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>12</animation2_id>
+    <atk>115</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>22</id>
+    <name>铁铳</name>
+    <icon_name>006-Weapon06</icon_name>
+    <description>铁制造的铳。枪手可以装备。</description>
+    <price>1300</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>12</animation2_id>
+    <atk>143</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>23</id>
+    <name>钢铳</name>
+    <icon_name>006-Weapon06</icon_name>
+    <description>钢制造的铳。枪手可以装备。</description>
+    <price>3400</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>12</animation2_id>
+    <atk>179</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>24</id>
+    <name>密斯利尔铳</name>
+    <icon_name>006-Weapon06</icon_name>
+    <description>最高级的铳。枪手可以装备。</description>
+    <price>8500</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>12</animation2_id>
+    <atk>224</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>25</id>
+    <name>铜槌</name>
+    <icon_name>007-Weapon07</icon_name>
+    <description>青铜制造的槌。僧侣可以装备。</description>
+    <price>440</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>13</animation2_id>
+    <atk>109</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>26</id>
+    <name>铁槌</name>
+    <icon_name>007-Weapon07</icon_name>
+    <description>铁制造的槌。僧侣可以装备。</description>
+    <price>1100</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>13</animation2_id>
+    <atk>136</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>27</id>
+    <name>钢槌</name>
+    <icon_name>007-Weapon07</icon_name>
+    <description>钢制造的槌。僧侣可以装备。</description>
+    <price>2700</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>13</animation2_id>
+    <atk>170</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>28</id>
+    <name>密斯利尔槌</name>
+    <icon_name>007-Weapon07</icon_name>
+    <description>最高级的槌。僧侣可以装备。</description>
+    <price>6800</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>13</animation2_id>
+    <atk>212</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>29</id>
+    <name>铜杖</name>
+    <icon_name>008-Weapon08</icon_name>
+    <description>青铜制造的铳。魔导士可以装备。</description>
+    <price>420</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>14</animation2_id>
+    <atk>107</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>30</id>
+    <name>铁杖</name>
+    <icon_name>008-Weapon08</icon_name>
+    <description>铁制造的铳。魔导士可以装备。</description>
+    <price>1000</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>14</animation2_id>
+    <atk>133</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>31</id>
+    <name>钢杖</name>
+    <icon_name>008-Weapon08</icon_name>
+    <description>钢制造的铳。魔导士可以装备。</description>
+    <price>2600</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>14</animation2_id>
+    <atk>167</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+  <Weapon>
+    <id>32</id>
+    <name>密斯利尔杖</name>
+    <icon_name>008-Weapon08</icon_name>
+    <description>最高级的杖。魔导士可以装备。</description>
+    <price>6500</price>
+    <kind>0</kind>
+    <animation1_id>0</animation1_id>
+    <animation2_id>14</animation2_id>
+    <atk>208</atk>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Weapon>
+</ArrayOfWeapon>

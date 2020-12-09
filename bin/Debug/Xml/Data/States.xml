@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <State xsi:nil="true" />
+  <State>
+    <id>1</id>
+    <name>战斗不能</name>
+    <animation_id>0</animation_id>
+    <restriction>4</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>true</zero_hp>
+    <cant_get_exp>true</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>10</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>false</battle_only>
+    <hold_turn>0</hold_turn>
+    <auto_release_prob>0</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set>
+      <int>2</int>
+      <int>3</int>
+      <int>4</int>
+      <int>5</int>
+      <int>6</int>
+      <int>7</int>
+      <int>8</int>
+      <int>9</int>
+      <int>10</int>
+      <int>11</int>
+      <int>12</int>
+      <int>13</int>
+      <int>14</int>
+      <int>15</int>
+      <int>16</int>
+    </minus_state_set>
+  </State>
+  <State>
+    <id>2</id>
+    <name>眩晕</name>
+    <animation_id>0</animation_id>
+    <restriction>4</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>5</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>0</hold_turn>
+    <auto_release_prob>100</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>3</id>
+    <name>毒</name>
+    <animation_id>91</animation_id>
+    <restriction>0</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>true</slip_damage>
+    <rating>5</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>false</battle_only>
+    <hold_turn>0</hold_turn>
+    <auto_release_prob>0</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>4</id>
+    <name>幻惑</name>
+    <animation_id>92</animation_id>
+    <restriction>0</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>5</rating>
+    <hit_rate>20</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>2</hold_turn>
+    <auto_release_prob>50</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>5</id>
+    <name>沈黙</name>
+    <animation_id>93</animation_id>
+    <restriction>1</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>5</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>2</hold_turn>
+    <auto_release_prob>50</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>6</id>
+    <name>混乱</name>
+    <animation_id>94</animation_id>
+    <restriction>3</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>5</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>2</hold_turn>
+    <auto_release_prob>50</auto_release_prob>
+    <shock_release_prob>25</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>7</id>
+    <name>睡眠</name>
+    <animation_id>95</animation_id>
+    <restriction>4</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>true</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>5</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>2</hold_turn>
+    <auto_release_prob>50</auto_release_prob>
+    <shock_release_prob>50</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>8</id>
+    <name>麻痺</name>
+    <animation_id>96</animation_id>
+    <restriction>4</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>5</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>2</hold_turn>
+    <auto_release_prob>25</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>9</id>
+    <name>虚弱</name>
+    <animation_id>0</animation_id>
+    <restriction>0</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>4</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>50</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>4</hold_turn>
+    <auto_release_prob>100</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>10</id>
+    <name>呆滞</name>
+    <animation_id>0</animation_id>
+    <restriction>0</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>4</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>50</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>4</hold_turn>
+    <auto_release_prob>100</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>11</id>
+    <name>迟钝</name>
+    <animation_id>0</animation_id>
+    <restriction>0</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>4</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>50</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>4</hold_turn>
+    <auto_release_prob>100</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>12</id>
+    <name>魔力下降</name>
+    <animation_id>0</animation_id>
+    <restriction>0</restriction>
+    <nonresistance>false</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>4</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>50</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>4</hold_turn>
+    <auto_release_prob>100</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>13</id>
+    <name>蓄力</name>
+    <animation_id>0</animation_id>
+    <restriction>0</restriction>
+    <nonresistance>true</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>3</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>150</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>6</hold_turn>
+    <auto_release_prob>100</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>14</id>
+    <name>屏障</name>
+    <animation_id>0</animation_id>
+    <restriction>0</restriction>
+    <nonresistance>true</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>3</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>150</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>6</hold_turn>
+    <auto_release_prob>100</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>15</id>
+    <name>祈祷</name>
+    <animation_id>0</animation_id>
+    <restriction>0</restriction>
+    <nonresistance>true</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>3</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>150</mdef_rate>
+    <eva>0</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>6</hold_turn>
+    <auto_release_prob>100</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+  <State>
+    <id>16</id>
+    <name>沉重</name>
+    <animation_id>0</animation_id>
+    <restriction>0</restriction>
+    <nonresistance>true</nonresistance>
+    <zero_hp>false</zero_hp>
+    <cant_get_exp>false</cant_get_exp>
+    <cant_evade>false</cant_evade>
+    <slip_damage>false</slip_damage>
+    <rating>3</rating>
+    <hit_rate>100</hit_rate>
+    <maxhp_rate>100</maxhp_rate>
+    <maxsp_rate>100</maxsp_rate>
+    <str_rate>100</str_rate>
+    <dex_rate>100</dex_rate>
+    <agi_rate>100</agi_rate>
+    <int_rate>100</int_rate>
+    <atk_rate>100</atk_rate>
+    <pdef_rate>100</pdef_rate>
+    <mdef_rate>100</mdef_rate>
+    <eva>50</eva>
+    <battle_only>true</battle_only>
+    <hold_turn>6</hold_turn>
+    <auto_release_prob>100</auto_release_prob>
+    <shock_release_prob>0</shock_release_prob>
+    <guard_element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </State>
+</ArrayOfState>

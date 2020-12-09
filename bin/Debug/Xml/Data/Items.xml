@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item xsi:nil="true" />
+  <Item>
+    <id>1</id>
+    <name>回复剂</name>
+    <icon_name>021-Potion01</icon_name>
+    <description>己方单体 HP 回复。</description>
+    <price>50</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>15</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>105-Heal01</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>500</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>2</id>
+    <name>超回复剂</name>
+    <icon_name>021-Potion01</icon_name>
+    <description>己方单体 HP 回复。</description>
+    <price>150</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>16</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>106-Heal02</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>2000</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>3</id>
+    <name>完全回复剂</name>
+    <icon_name>021-Potion01</icon_name>
+    <description>己方单体 HP 回复。</description>
+    <price>450</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>17</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>107-Heal03</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>9999</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>4</id>
+    <name>香水</name>
+    <icon_name>022-Potion02</icon_name>
+    <description>己方单体 SP 回复。</description>
+    <price>100</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>18</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>108-Heal04</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>500</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>5</id>
+    <name>高级香水</name>
+    <icon_name>022-Potion02</icon_name>
+    <description>己方单体 SP 回复。</description>
+    <price>300</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>19</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>109-Heal05</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>2000</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>6</id>
+    <name>超级香水</name>
+    <icon_name>022-Potion02</icon_name>
+    <description>己方单体 SP 回复。</description>
+    <price>900</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>20</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>110-Heal06</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>9999</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>7</id>
+    <name>圣灵药</name>
+    <icon_name>023-Potion03</icon_name>
+    <description>己方单体 HP/SP 回复。</description>
+    <price>600</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>21</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>111-Heal07</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>2000</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>2000</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>8</id>
+    <name>完全圣灵药</name>
+    <icon_name>023-Potion03</icon_name>
+    <description>己方单体 HP/SP 回复。</description>
+    <price>1200</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>22</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>112-Heal08</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>9999</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>9999</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>9</id>
+    <name>滋补剂</name>
+    <icon_name>024-Potion04</icon_name>
+    <description>己方单体战斗不能回复。</description>
+    <price>150</price>
+    <kind>0</kind>
+    <scope>5</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>25</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>115-Raise01</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>50</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set>
+      <int>1</int>
+    </minus_state_set>
+  </Item>
+  <Item>
+    <id>10</id>
+    <name>完全滋补剂</name>
+    <icon_name>024-Potion04</icon_name>
+    <description>己方单体战斗不能回复。</description>
+    <price>350</price>
+    <kind>0</kind>
+    <scope>5</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>26</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>116-Raise02</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>100</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set>
+      <int>1</int>
+    </minus_state_set>
+  </Item>
+  <Item>
+    <id>11</id>
+    <name>解毒剂</name>
+    <icon_name>025-Herb01</icon_name>
+    <description>已方单体毒状态回复。</description>
+    <price>40</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>23</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>113-Remedy01</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set>
+      <int>3</int>
+    </minus_state_set>
+  </Item>
+  <Item>
+    <id>12</id>
+    <name>还原草</name>
+    <icon_name>026-Herb02</icon_name>
+    <description>已方单体状态回复。</description>
+    <price>120</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>0</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>24</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>114-Remedy02</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set>
+      <int>3</int>
+      <int>4</int>
+      <int>5</int>
+      <int>6</int>
+      <int>7</int>
+      <int>8</int>
+    </minus_state_set>
+  </Item>
+  <Item>
+    <id>13</id>
+    <name>力量之石</name>
+    <icon_name>035-Item04</icon_name>
+    <description>己方全体攻击力上升。</description>
+    <price>200</price>
+    <kind>0</kind>
+    <scope>4</scope>
+    <occasion>1</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>63</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set>
+      <int>13</int>
+    </plus_state_set>
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>14</id>
+    <name>屏障之石</name>
+    <icon_name>035-Item04</icon_name>
+    <description>己方全体物理防御上升。</description>
+    <price>200</price>
+    <kind>0</kind>
+    <scope>4</scope>
+    <occasion>1</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>64</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set>
+      <int>14</int>
+    </plus_state_set>
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>15</id>
+    <name>祈祷之石</name>
+    <icon_name>035-Item04</icon_name>
+    <description>己方全体魔法防御上升。</description>
+    <price>200</price>
+    <kind>0</kind>
+    <scope>4</scope>
+    <occasion>1</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>65</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set>
+      <int>15</int>
+    </plus_state_set>
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>16</id>
+    <name>沉重之石</name>
+    <icon_name>035-Item04</icon_name>
+    <description>己方全体回避率上升。</description>
+    <price>200</price>
+    <kind>0</kind>
+    <scope>4</scope>
+    <occasion>1</occasion>
+    <animation1_id>3</animation1_id>
+    <animation2_id>66</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set>
+      <int>16</int>
+    </plus_state_set>
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>17</id>
+    <name>生命之种</name>
+    <icon_name>042-Item11</icon_name>
+    <description>己方单体 MaxHP 上升 50。</description>
+    <price>200</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>2</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>056-Right02</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>1</parameter_type>
+    <parameter_points>50</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>18</id>
+    <name>技术之种</name>
+    <icon_name>042-Item11</icon_name>
+    <description>己方单体 MaxSP 上升 50。</description>
+    <price>200</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>2</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>056-Right02</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>2</parameter_type>
+    <parameter_points>50</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>19</id>
+    <name>力量之种</name>
+    <icon_name>042-Item11</icon_name>
+    <description>己方单体力量上升 5。</description>
+    <price>200</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>2</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>056-Right02</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>3</parameter_type>
+    <parameter_points>5</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>20</id>
+    <name>灵巧之种</name>
+    <icon_name>042-Item11</icon_name>
+    <description>己方单体灵巧上升 5。</description>
+    <price>200</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>2</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>056-Right02</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>4</parameter_type>
+    <parameter_points>5</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>21</id>
+    <name>速度之种</name>
+    <icon_name>042-Item11</icon_name>
+    <description>己方单体速度上升 5。</description>
+    <price>200</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>2</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>056-Right02</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>5</parameter_type>
+    <parameter_points>5</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>22</id>
+    <name>魔力之种</name>
+    <icon_name>042-Item11</icon_name>
+    <description>己方单体魔力上升 5。</description>
+    <price>200</price>
+    <kind>0</kind>
+    <scope>3</scope>
+    <occasion>2</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name>056-Right02</name>
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>6</parameter_type>
+    <parameter_points>5</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>23</id>
+    <name>门的钥匙</name>
+    <icon_name>029-Key01</icon_name>
+    <description>事件物品。</description>
+    <price>0</price>
+    <kind>0</kind>
+    <scope>0</scope>
+    <occasion>3</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>24</id>
+    <name>宝箱的钥匙</name>
+    <icon_name>029-Key01</icon_name>
+    <description>事件物品。</description>
+    <price>0</price>
+    <kind>0</kind>
+    <scope>0</scope>
+    <occasion>3</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>25</id>
+    <name>牢房的钥匙</name>
+    <icon_name>029-Key01</icon_name>
+    <description>事件物品。</description>
+    <price>0</price>
+    <kind>0</kind>
+    <scope>0</scope>
+    <occasion>3</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>26</id>
+    <name>皮袋</name>
+    <icon_name>032-Item01</icon_name>
+    <description>事件物品。</description>
+    <price>0</price>
+    <kind>0</kind>
+    <scope>0</scope>
+    <occasion>3</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>27</id>
+    <name>信</name>
+    <icon_name>033-Item02</icon_name>
+    <description>事件物品。</description>
+    <price>0</price>
+    <kind>0</kind>
+    <scope>0</scope>
+    <occasion>3</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>28</id>
+    <name>羽毛</name>
+    <icon_name>037-Item06</icon_name>
+    <description>事件物品。</description>
+    <price>0</price>
+    <kind>0</kind>
+    <scope>0</scope>
+    <occasion>3</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>29</id>
+    <name>地图</name>
+    <icon_name>038-Item07</icon_name>
+    <description>事件物品。</description>
+    <price>0</price>
+    <kind>0</kind>
+    <scope>0</scope>
+    <occasion>3</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>30</id>
+    <name>石版</name>
+    <icon_name>039-Item08</icon_name>
+    <description>事件物品。</description>
+    <price>0</price>
+    <kind>0</kind>
+    <scope>0</scope>
+    <occasion>3</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>31</id>
+    <name>卡片</name>
+    <icon_name>040-Item09</icon_name>
+    <description>事件物品。</description>
+    <price>0</price>
+    <kind>0</kind>
+    <scope>0</scope>
+    <occasion>3</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+  <Item>
+    <id>32</id>
+    <name>果实</name>
+    <icon_name>041-Item10</icon_name>
+    <description>事件物品。</description>
+    <price>0</price>
+    <kind>0</kind>
+    <scope>0</scope>
+    <occasion>3</occasion>
+    <animation1_id>0</animation1_id>
+    <animation2_id>0</animation2_id>
+    <menu_se>
+      <volume>80</volume>
+      <name />
+      <pitch>100</pitch>
+    </menu_se>
+    <common_event_id>0</common_event_id>
+    <consumable>true</consumable>
+    <parameter_type>0</parameter_type>
+    <parameter_points>0</parameter_points>
+    <recover_hp_rate>0</recover_hp_rate>
+    <recover_hp>0</recover_hp>
+    <recover_sp_rate>0</recover_sp_rate>
+    <recover_sp>0</recover_sp>
+    <hit>100</hit>
+    <pdef_f>0</pdef_f>
+    <mdef_f>0</mdef_f>
+    <variance>0</variance>
+    <element_set />
+    <plus_state_set />
+    <minus_state_set />
+  </Item>
+</ArrayOfItem>

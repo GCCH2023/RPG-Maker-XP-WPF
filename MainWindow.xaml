@@ -1,0 +1,49 @@
+﻿<Window x:Class="XP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" SizeToContent="WidthAndHeight"
+        xmlns:xp="clr-namespace:XP"
+        xmlns:nw="clr-namespace:XP.NewWindows"
+        xmlns:internal="clr-namespace:XP.Internal"
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen"
+        Name="window"
+        >
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded">
+            <EventTrigger.Actions>
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation From="0" To="1" Duration="0:0:1" 
+                                         Storyboard.TargetName="window" Storyboard.TargetProperty="Opacity">
+                            <DoubleAnimation.EasingFunction>
+                                <SineEase EasingMode="EaseOut"/>
+                            </DoubleAnimation.EasingFunction>
+                        </DoubleAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger.Actions>
+        </EventTrigger>
+    </Window.Triggers>
+    <Canvas Width="{x:Static xp:Global.ScreenWidth}" Height="{x:Static xp:Global.ScreenHeight}" Name="gameBoard" Background="Black">
+            <FrameworkElement Width="100" Height="100">
+                <FrameworkElement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="200"/>
+                    </TransformGroup>
+                </FrameworkElement.RenderTransform>
+
+            </FrameworkElement>
+
+        <!--<Border Width="640" Height="480" Background="AliceBlue" Name="border">
+            
+        </Border>
+        -->
+        <!--<internal:Tilemap x:Name="tilemap" Width="640" Height="480"/>-->
+        <!--<xp:SceneTitle/>-->
+        <Button Width="100" Height="40" Click="Button_Click" Canvas.Left="265" Canvas.Top="262">确定</Button>
+    </Canvas>
+</Window>

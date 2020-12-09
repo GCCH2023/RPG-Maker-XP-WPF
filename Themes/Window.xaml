@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:internal="clr-namespace:XP.Internal"
+                    xmlns:local="clr-namespace:XP.NewWindows">
+    <!--<Style TargetType="{x:Type local:Window}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:Window}">
+                    <Grid Tag="{TemplateBinding WindowSkin}" x:Name="canvas">
+                        <Grid.Background>
+                            --><!--ImageSource使用TemplateBinding没有效果--><!--
+                            <ImageBrush ImageSource="{Binding Tag, ElementName=canvas}" ViewboxUnits="Absolute" Viewbox="0, 0, 128, 128"/>
+                        </Grid.Background>
+                        --><!-- 边框 --><!--
+                        <internal:SlicedSprite ImageSource="{TemplateBinding WindowSkin}" Viewbox="128, 0, 64, 64"
+                                               SlicedRect="16, 16, 16, 16" SlicedRectUnits="Absolute" ShowCenterPart="False"/>
+                        
+                        --><!--内容--><!--
+                        <ContentPresenter Margin="16"/>
+                        
+                        --><!--光标--><!--
+                        <internal:SlicedSprite ImageSource="{TemplateBinding WindowSkin}" Viewbox="128, 64, 32, 32"
+                                               SlicedRect="4, 4, 4, 4" SlicedRectUnits="Absolute" ShowCenterPart="True" x:Name="cursor"/>
+                        
+                        --><!--暂停标记--><!--
+                        <Rectangle Width="16" Height="16" VerticalAlignment="Bottom" x:Name="pauseArrow" Visibility="Hidden">
+                            <Rectangle.Fill>
+                                <ImageBrush x:Name="pauseBrush" ImageSource="{Binding Tag, ElementName=canvas}"
+                                            ViewboxUnits="Absolute" Viewbox="160, 64, 16, 16"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>-->
+</ResourceDictionary>

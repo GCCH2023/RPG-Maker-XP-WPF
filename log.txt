@@ -1,0 +1,37 @@
+﻿if (.*\b)		// if 开头的一行
+
+保存图像
+            int width = this.width;
+            int height = this.height;
+            RenderTargetBitmap bmp = new RenderTargetBitmap(width, height, 96, 96, PixelFormats.Bgra32);
+            bmp.Render(this);
+
+            PngBitmapEncoder encoder = new PngBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(bmp));
+            BitmapImage bitmapImage = new BitmapImage();
+            using (var memoryStream = new MemoryStream())
+            {
+                encoder.Save(memoryStream);
+                memoryStream.Seek(0, SeekOrigin.Begin);
+                bitmapImage.BeginInit();
+                bitmapImage.CacheOption = BitmapCacheOption.OnLoad;
+                bitmapImage.StreamSource = memoryStream;
+                bitmapImage.EndInit();
+            }
+
+
+
+C# DirectX程序集 目录
+C:\Windows\Microsoft.NET\
+C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0
+
+
+使用DirectSound播放音乐出现异常：VS报错之混合模式程序集是针对“v1.1.4322”版的运行时生成的，
+	在没有配置其他信息的情况下，无法在 4.0 运行时中加载该程序集。
+解决方法：在App.config startup中添加 useLegacyV2RuntimeActivationPolicy="true"
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+  </startup>
+</configuration>

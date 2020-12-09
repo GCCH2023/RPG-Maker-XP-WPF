@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFF90D94-7334-41C9-A1A8-25C1484DD651}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XP</RootNamespace>
+    <AssemblyName>XP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.DirectSound.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Arrows\Arrow_Actor.cs" />
+    <Compile Include="Base\GameObject.cs" />
+    <Compile Include="Base\Input.cs" />
+    <Compile Include="Base\File.cs" />
+    <Compile Include="Base\Sound.cs" />
+    <Compile Include="Converters\BoolVisibilityConverter.cs" />
+    <Compile Include="Converters\ImageSourceConverter.cs" />
+    <Compile Include="Effects\ColorEffect.cs" />
+    <Compile Include="Internal\AutoTileInfo.cs" />
+    <Compile Include="Internal\GridLengthConverter.cs" />
+    <Compile Include="Arrows\Arrow_Base.cs" />
+    <Compile Include="Arrows\Arrow_Enemy.cs" />
+    <Compile Include="Internal\Bitmap.cs" />
+    <Compile Include="Internal\Font.cs" />
+    <Compile Include="Internal\SlicedSprite.cs" />
+    <Compile Include="Internal\SlicedSpriteMultiConverter.cs" />
+    <Compile Include="Internal\Window.cs" />
+    <Compile Include="Interpreters\Interpreter1.cs" />
+    <Compile Include="Interpreters\Interpreter2.cs" />
+    <Compile Include="Interpreters\Interpreter3.cs" />
+    <Compile Include="Interpreters\Interpreter4.cs" />
+    <Compile Include="Interpreters\Interpreter5.cs" />
+    <Compile Include="Interpreters\Interpreter6.cs" />
+    <Compile Include="Interpreters\Interpreter7.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Internal\Plane.cs" />
+    <Compile Include="Base\RGSSObject.cs" />
+    <Compile Include="Base\Marshal.cs" />
+    <Compile Include="MyVisualHost.cs" />
+    <Compile Include="NewWindows\Window.cs" />
+    <Compile Include="NewWindows\WindowBase.xaml.cs">
+      <DependentUpon>WindowBase.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RPG\Actor.cs" />
+    <Compile Include="RPG\Animation.cs" />
+    <Compile Include="RPG\Armor.cs" />
+    <Compile Include="RPG\AudioFile.cs" />
+    <Compile Include="RPG\Cache.cs" />
+    <Compile Include="RPG\Class.cs" />
+    <Compile Include="RPG\CommonEvent.cs" />
+    <Compile Include="RPG\Enemy.cs" />
+    <Compile Include="RPG\Event.cs" />
+    <Compile Include="RPG\EventCommand.cs" />
+    <Compile Include="RPG\Goods.cs" />
+    <Compile Include="RPG\Item.cs" />
+    <Compile Include="RPG\Map.cs" />
+    <Compile Include="RPG\MapInfo.cs" />
+    <Compile Include="RPG\MoveCommand.cs" />
+    <Compile Include="RPG\MoveRoute.cs" />
+    <Compile Include="RPG\Skill.cs" />
+    <Compile Include="RPG\Sprite.cs" />
+    <Compile Include="RPG\State.cs" />
+    <Compile Include="RPG\System.cs" />
+    <Compile Include="RPG\Tileset.cs" />
+    <Compile Include="RPG\Troop.cs" />
+    <Compile Include="RPG\Weapon.cs" />
+    <Compile Include="RPG\Weather.cs" />
+    <Compile Include="RubyParseException.cs" />
+    <Compile Include="Scenes\Scene.cs" />
+    <Compile Include="Scenes\SceneTitle.xaml.cs">
+      <DependentUpon>SceneTitle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scenes\Scene_Battle1.cs" />
+    <Compile Include="Scenes\Scene_Battle2.cs" />
+    <Compile Include="Scenes\Scene_Battle3.cs" />
+    <Compile Include="Scenes\Scene_Battle4.cs" />
+    <Compile Include="Scenes\Scene_Debug.cs" />
+    <Compile Include="Scenes\Scene_End.cs" />
+    <Compile Include="Scenes\Scene_Equip.cs" />
+    <Compile Include="Scenes\Scene_File.cs" />
+    <Compile Include="Scenes\Scene_Gameover.cs" />
+    <Compile Include="Scenes\Scene_Item.cs" />
+    <Compile Include="Scenes\Scene_Load.cs" />
+    <Compile Include="Scenes\Scene_Map.cs" />
+    <Compile Include="Scenes\Scene_Menu.cs" />
+    <Compile Include="Scenes\Scene_Name.cs" />
+    <Compile Include="Scenes\Scene_Save.cs" />
+    <Compile Include="Scenes\Scene_Shop.cs" />
+    <Compile Include="Scenes\Scene_Skill.cs" />
+    <Compile Include="Scenes\Scene_Status.cs" />
+    <Compile Include="Scenes\Scene_Title.cs" />
+    <Compile Include="Internal\Sprite.cs" />
+    <Compile Include="Sprites\Spriteset_Battle.cs" />
+    <Compile Include="Sprites\Spriteset_Map.cs" />
+    <Compile Include="Sprites\Sprite_Battler.cs" />
+    <Compile Include="Sprites\Sprite_Character.cs" />
+    <Compile Include="Sprites\Sprite_Picture.cs" />
+    <Compile Include="Sprites\Sprite_Timer.cs" />
+    <Compile Include="Internal\Tone.cs" />
+    <Compile Include="Internal\Table.cs" />
+    <Compile Include="Internal\Tilemap.cs" />
+    <Compile Include="Base\Time.cs" />
+    <Compile Include="Test\AutoTile.xaml.cs">
+      <DependentUpon>AutoTile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Test\SoundWindow.xaml.cs">
+      <DependentUpon>SoundWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Test\TestWindow.xaml.cs">
+      <DependentUpon>TestWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\ColorUtilities.cs" />
+    <Compile Include="Utility\Util.cs" />
+    <Compile Include="Internal\Viewport.cs" />
+    <Compile Include="Utility\XML.cs" />
+    <Compile Include="Windows\Window_Base.cs" />
+    <Compile Include="Windows\Window_BattleResult.cs" />
+    <Compile Include="Windows\Window_BattleStatus.cs" />
+    <Compile Include="Windows\Window_Command.cs" />
+    <Compile Include="Windows\Window_DebugLeft.cs" />
+    <Compile Include="Windows\Window_DebugRight.cs" />
+    <Compile Include="Windows\Window_EquipItem.cs" />
+    <Compile Include="Windows\Window_EquipLeft.cs" />
+    <Compile Include="Windows\Window_EquipRight.cs" />
+    <Compile Include="Windows\Window_Gold.cs" />
+    <Compile Include="Windows\Window_Help.cs" />
+    <Compile Include="Windows\Window_InputNumber.cs" />
+    <Compile Include="Windows\Window_Item.cs" />
+    <Compile Include="Windows\Window_MenuStatus.cs" />
+    <Compile Include="Windows\Window_Message.cs" />
+    <Compile Include="Windows\Window_NameEdit.cs" />
+    <Compile Include="Windows\Window_NameInput.cs" />
+    <Compile Include="Windows\Window_PartyCommand.cs" />
+    <Compile Include="Windows\Window_PlayTime.cs" />
+    <Compile Include="Windows\Window_SaveFile.cs" />
+    <Compile Include="Windows\Window_Selectable.cs" />
+    <Compile Include="Windows\Window_ShopBuy.cs" />
+    <Compile Include="Windows\Window_ShopCommand.cs" />
+    <Compile Include="Windows\Window_ShopNumber.cs" />
+    <Compile Include="Windows\Window_ShopSell.cs" />
+    <Compile Include="Windows\Window_ShopStatus.cs" />
+    <Compile Include="Windows\Window_Skill.cs" />
+    <Compile Include="Windows\Window_SkillStatus.cs" />
+    <Compile Include="Windows\Window_Status.cs" />
+    <Compile Include="Windows\Window_Steps.cs" />
+    <Compile Include="Windows\Window_Target.cs" />
+    <Page Include="GlobalResource.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\Audio.cs" />
+    <Compile Include="Game\Game_Actor.cs" />
+    <Compile Include="Game\Game_Actors.cs" />
+    <Compile Include="Game\Game_BattleAction.cs" />
+    <Compile Include="Game\Game_Battler3.cs" />
+    <Compile Include="Game\Game_Battler2.cs" />
+    <Compile Include="Game\Game_Battler1.cs" />
+    <Compile Include="Game\Game_Character1.cs" />
+    <Compile Include="Game\Game_Character2.cs" />
+    <Compile Include="Game\Game_Character3.cs" />
+    <Compile Include="Game\Game_CommonEvent.cs" />
+    <Compile Include="Game\Game_Enemy.cs" />
+    <Compile Include="Game\Game_Event.cs" />
+    <Compile Include="Game\Game_Map.cs" />
+    <Compile Include="Game\Game_Party.cs" />
+    <Compile Include="Game\Game_Picture.cs" />
+    <Compile Include="Game\Game_Player.cs" />
+    <Compile Include="Game\Game_Screen.cs" />
+    <Compile Include="Game\Game_Troop.cs" />
+    <Compile Include="Game\Game_SelfSwitches.cs" />
+    <Compile Include="Game\Game_Variables.cs" />
+    <Compile Include="Game\Game_Switches.cs" />
+    <Compile Include="Game\Game_System.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Base\Graphics.cs" />
+    <Compile Include="Game\Game_Temp.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="NewWindows\WindowBase.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Scenes\SceneTitle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Test\AutoTile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Test\SoundWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Test\TestWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\ListBoxItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Resource Include="Effects\Color.ps" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="log.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Graphics\Animations\001-Action01.png" />
+    <Resource Include="Graphics\Animations\002-Action02.png" />
+    <Resource Include="Graphics\Animations\003-Attack01.png" />
+    <Resource Include="Graphics\Animations\004-Attack02.png" />
+    <Resource Include="Graphics\Animations\005-Attack03.png" />
+    <Resource Include="Graphics\Animations\006-Weapon01.png" />
+    <Resource Include="Graphics\Animations\007-Weapon02.png" />
+    <Resource Include="Graphics\Animations\008-Weapon03.png" />
+    <Resource Include="Graphics\Animations\009-Weapon04.png" />
+    <Resource Include="Graphics\Animations\010-Weapon05.png" />
+    <Resource Include="Graphics\Animations\011-Weapon06.png" />
+    <Resource Include="Graphics\Animations\012-Heal01.png" />
+    <Resource Include="Graphics\Animations\013-Heal02.png" />
+    <Resource Include="Graphics\Animations\014-Heal03.png" />
+    <Resource Include="Graphics\Animations\015-Fire01.png" />
+    <Resource Include="Graphics\Animations\016-Ice01.png" />
+    <Resource Include="Graphics\Animations\017-Thunder01.png" />
+    <Resource Include="Graphics\Animations\018-Water01.png" />
+    <Resource Include="Graphics\Animations\019-Earth01.png" />
+    <Resource Include="Graphics\Animations\020-Wind01.png" />
+    <Resource Include="Graphics\Animations\021-Light01.png" />
+    <Resource Include="Graphics\Animations\022-Darkness01.png" />
+    <Resource Include="Graphics\Animations\023-Burst01.png" />
+    <Resource Include="Graphics\Animations\024-Support01.png" />
+    <Resource Include="Graphics\Animations\025-Support02.png" />
+    <Resource Include="Graphics\Animations\026-Support03.png" />
+    <Resource Include="Graphics\Animations\027-Support04.png" />
+    <Resource Include="Graphics\Animations\028-State01.png" />
+    <Resource Include="Graphics\Animations\029-Emotion01.png" />
+    <Resource Include="Graphics\Animations\030-Explosion01.png" />
+    <Resource Include="Graphics\Autotiles\001-G_Water01.png" />
+    <Resource Include="Graphics\Autotiles\002-G_Shadow01.png" />
+    <Resource Include="Graphics\Autotiles\003-G_Ground01.png" />
+    <Resource Include="Graphics\Autotiles\004-G_Ground02.png" />
+    <Resource Include="Graphics\Autotiles\005-G_Road01.png" />
+    <Resource Include="Graphics\Autotiles\006-G_Road02.png" />
+    <Resource Include="Graphics\Autotiles\007-G_Undulation01.png" />
+    <Resource Include="Graphics\Autotiles\008-G_Undulation02.png" />
+    <Resource Include="Graphics\Autotiles\009-G2_Water01.png" />
+    <Resource Include="Graphics\Autotiles\010-G2_Ground01.png" />
+    <Resource Include="Graphics\Autotiles\011-G2_Ground02.png" />
+    <Resource Include="Graphics\Autotiles\012-G2_Swamp01.png" />
+    <Resource Include="Graphics\Autotiles\013-G2_Swamp02.png" />
+    <Resource Include="Graphics\Autotiles\014-G2_Swamp03.png" />
+    <Resource Include="Graphics\Autotiles\015-Sa_Water01.png" />
+    <Resource Include="Graphics\Autotiles\016-Sa_Shadow01.png" />
+    <Resource Include="Graphics\Autotiles\017-Sa_Grass01.png" />
+    <Resource Include="Graphics\Autotiles\018-Sa_Ground01.png" />
+    <Resource Include="Graphics\Autotiles\019-Sa_Grass02.png" />
+    <Resource Include="Graphics\Autotiles\020-Sa_Grass03.png" />
+    <Resource Include="Graphics\Autotiles\021-Sa_Road01.png" />
+    <Resource Include="Graphics\Autotiles\022-Roof01.png" />
+    <Resource Include="Graphics\Autotiles\023-Sa_Undulation01.png" />
+    <Resource Include="Graphics\Autotiles\024-Ocean01.png" />
+    <Resource Include="Graphics\Autotiles\025-Ocean02.png" />
+    <Resource Include="Graphics\Autotiles\026-Ocean03.png" />
+    <Resource Include="Graphics\Autotiles\027-Ocean04.png" />
+    <Resource Include="Graphics\Autotiles\028-Sn_Water01.png" />
+    <Resource Include="Graphics\Autotiles\029-Sn_Shadow01.png" />
+    <Resource Include="Graphics\Autotiles\030-Sn_Ground01.png" />
+    <Resource Include="Graphics\Autotiles\031-Sn_Undulation01.png" />
+    <Resource Include="Graphics\Autotiles\032-T_Ocean01.png" />
+    <Resource Include="Graphics\Autotiles\033-Waterfall01.png" />
+    <Resource Include="Graphics\Autotiles\034-Waterfall02.png" />
+    <Resource Include="Graphics\Autotiles\035-Waterfall03.png" />
+    <Resource Include="Graphics\Autotiles\036-Tree01.png" />
+    <Resource Include="Graphics\Autotiles\037-Tree02.png" />
+    <Resource Include="Graphics\Autotiles\038-Tree03.png" />
+    <Resource Include="Graphics\Autotiles\039-Tree04.png" />
+    <Resource Include="Graphics\Autotiles\040-Ground01.png" />
+    <Resource Include="Graphics\Autotiles\041-Grass01.png" />
+    <Resource Include="Graphics\Autotiles\042-Ground02.png" />
+    <Resource Include="Graphics\Autotiles\043-Grass02.png" />
+    <Resource Include="Graphics\Autotiles\044-Road01.png" />
+    <Resource Include="Graphics\Autotiles\045-Road02.png" />
+    <Resource Include="Graphics\Autotiles\046-Road03.png" />
+    <Resource Include="Graphics\Autotiles\047-Flower01.png" />
+    <Resource Include="Graphics\Autotiles\048-Water01.png" />
+    <Resource Include="Graphics\Autotiles\049-St_Shadow01.png" />
+    <Resource Include="Graphics\Autotiles\050-Roof02.png" />
+    <Resource Include="Graphics\Autotiles\051-Carpet01.png" />
+    <Resource Include="Graphics\Autotiles\052-Carpet02.png" />
+    <Resource Include="Graphics\Autotiles\053-Wall01.png" />
+    <Resource Include="Graphics\Autotiles\054-Wall02.png" />
+    <Resource Include="Graphics\Autotiles\055-Wall03.png" />
+    <Resource Include="Graphics\Autotiles\056-CE_Water01.png" />
+    <Resource Include="Graphics\Autotiles\057-CE_Shadow01.png" />
+    <Resource Include="Graphics\Autotiles\058-CE_Ground01.png" />
+    <Resource Include="Graphics\Autotiles\059-CE_Ground02.png" />
+    <Resource Include="Graphics\Autotiles\060-CE_Grass01.png" />
+    <Resource Include="Graphics\Autotiles\061-CE_Road01.png" />
+    <Resource Include="Graphics\Autotiles\062-CF_Lava01.png" />
+    <Resource Include="Graphics\Autotiles\063-CF_Shadow01.png" />
+    <Resource Include="Graphics\Autotiles\064-CF_Ground01.png" />
+    <Resource Include="Graphics\Autotiles\065-CF_Ground02.png" />
+    <Resource Include="Graphics\Autotiles\066-CF_Ground03.png" />
+    <Resource Include="Graphics\Autotiles\067-CF_Ground04.png" />
+    <Resource Include="Graphics\Autotiles\068-CI_Water01.png" />
+    <Resource Include="Graphics\Autotiles\069-CI_Shadow01.png" />
+    <Resource Include="Graphics\Autotiles\070-CI_Snow01.png" />
+    <Resource Include="Graphics\Autotiles\071-CI_Ground01.png" />
+    <Resource Include="Graphics\Autotiles\072-CI_Ice01.png" />
+    <Resource Include="Graphics\Autotiles\073-CI_Ground02.png" />
+    <Resource Include="Graphics\Autotiles\074-CW_Water01.png" />
+    <Resource Include="Graphics\Autotiles\075-CW_Shadow01.png" />
+    <Resource Include="Graphics\Autotiles\076-CW_Grass01.png" />
+    <Resource Include="Graphics\Autotiles\077-CW_Grass02.png" />
+    <Resource Include="Graphics\Autotiles\078-CW_Ground01.png" />
+    <Resource Include="Graphics\Autotiles\079-CW_Grass03.png" />
+    <Resource Include="Graphics\Autotiles\080-B_Ground01.png" />
+    <Resource Include="Graphics\Autotiles\081-B_Ground02.png" />
+    <Resource Include="Graphics\Battlebacks\001-Grassland01.jpg" />
+    <Resource Include="Graphics\Battlebacks\002-Woods01.jpg" />
+    <Resource Include="Graphics\Battlebacks\003-Forest01.jpg" />
+    <Resource Include="Graphics\Battlebacks\004-Mountain01.jpg" />
+    <Resource Include="Graphics\Battlebacks\005-Beach01.jpg" />
+    <Resource Include="Graphics\Battlebacks\006-Desert01.jpg" />
+    <Resource Include="Graphics\Battlebacks\007-Swamp01.jpg" />
+    <Resource Include="Graphics\Battlebacks\008-Snowfield01.jpg" />
+    <Resource Include="Graphics\Battlebacks\009-CastleTown01.jpg" />
+    <Resource Include="Graphics\Battlebacks\010-CastleTown02.jpg" />
+    <Resource Include="Graphics\Battlebacks\011-PortTown01.jpg" />
+    <Resource Include="Graphics\Battlebacks\012-PortTown02.jpg" />
+    <Resource Include="Graphics\Battlebacks\013-PostTown01.jpg" />
+    <Resource Include="Graphics\Battlebacks\014-PostTown02.jpg" />
+    <Resource Include="Graphics\Battlebacks\015-ForestTown01.jpg" />
+    <Resource Include="Graphics\Battlebacks\016-ForestTown02.jpg" />
+    <Resource Include="Graphics\Battlebacks\017-MineTown01.jpg" />
+    <Resource Include="Graphics\Battlebacks\018-MineTown02.jpg" />
+    <Resource Include="Graphics\Battlebacks\019-DesertTown01.jpg" />
+    <Resource Include="Graphics\Battlebacks\020-DesertTown02.jpg" />
+    <Resource Include="Graphics\Battlebacks\021-SnowTown01.jpg" />
+    <Resource Include="Graphics\Battlebacks\022-SnowTown02.jpg" />
+    <Resource Include="Graphics\Battlebacks\023-FarmVillage01.jpg" />
+    <Resource Include="Graphics\Battlebacks\024-FarmVillage02.jpg" />
+    <Resource Include="Graphics\Battlebacks\025-Castle01.jpg" />
+    <Resource Include="Graphics\Battlebacks\026-Castle02.jpg" />
+    <Resource Include="Graphics\Battlebacks\027-Castle03.jpg" />
+    <Resource Include="Graphics\Battlebacks\028-Church01.jpg" />
+    <Resource Include="Graphics\Battlebacks\029-Church02.jpg" />
+    <Resource Include="Graphics\Battlebacks\030-Ship01.jpg" />
+    <Resource Include="Graphics\Battlebacks\031-Ship02.jpg" />
+    <Resource Include="Graphics\Battlebacks\032-Heaven01.jpg" />
+    <Resource Include="Graphics\Battlebacks\033-Heaven02.jpg" />
+    <Resource Include="Graphics\Battlebacks\034-Bridge01.jpg" />
+    <Resource Include="Graphics\Battlebacks\035-Ruins01.jpg" />
+    <Resource Include="Graphics\Battlebacks\036-Shop01.jpg" />
+    <Resource Include="Graphics\Battlebacks\037-Fort01.jpg" />
+    <Resource Include="Graphics\Battlebacks\038-Fort02.jpg" />
+    <Resource Include="Graphics\Battlebacks\039-Tower01.jpg" />
+    <Resource Include="Graphics\Battlebacks\040-Tower02.jpg" />
+    <Resource Include="Graphics\Battlebacks\041-EvilCastle01.jpg" />
+    <Resource Include="Graphics\Battlebacks\042-EvilCastle02.jpg" />
+    <Resource Include="Graphics\Battlebacks\043-Cave01.jpg" />
+    <Resource Include="Graphics\Battlebacks\044-Cave02.jpg" />
+    <Resource Include="Graphics\Battlebacks\045-Cave03.jpg" />
+    <Resource Include="Graphics\Battlebacks\046-Cave04.jpg" />
+    <Resource Include="Graphics\Battlebacks\047-Mine01.jpg" />
+    <Resource Include="Graphics\Battlebacks\048-Sewer01.jpg" />
+    <Resource Include="Graphics\Battlebacks\049-InnerBody01.jpg" />
+    <Resource Include="Graphics\Battlebacks\050-DarkSpace01.jpg" />
+    <Resource Include="Graphics\Battlers\001-Fighter01.png" />
+    <Resource Include="Graphics\Battlers\002-Fighter02.png" />
+    <Resource Include="Graphics\Battlers\003-Fighter03.png" />
+    <Resource Include="Graphics\Battlers\004-Fighter04.png" />
+    <Resource Include="Graphics\Battlers\005-Fighter05.png" />
+    <Resource Include="Graphics\Battlers\006-Fighter06.png" />
+    <Resource Include="Graphics\Battlers\007-Fighter07.png" />
+    <Resource Include="Graphics\Battlers\008-Fighter08.png" />
+    <Resource Include="Graphics\Battlers\009-Lancer01.png" />
+    <Resource Include="Graphics\Battlers\010-Lancer02.png" />
+    <Resource Include="Graphics\Battlers\011-Lancer03.png" />
+    <Resource Include="Graphics\Battlers\012-Lancer04.png" />
+    <Resource Include="Graphics\Battlers\013-Warrior01.png" />
+    <Resource Include="Graphics\Battlers\014-Warrior02.png" />
+    <Resource Include="Graphics\Battlers\015-Warrior03.png" />
+    <Resource Include="Graphics\Battlers\016-Thief01.png" />
+    <Resource Include="Graphics\Battlers\017-Thief02.png" />
+    <Resource Include="Graphics\Battlers\018-Thief03.png" />
+    <Resource Include="Graphics\Battlers\019-Thief04.png" />
+    <Resource Include="Graphics\Battlers\020-Hunter01.png" />
+    <Resource Include="Graphics\Battlers\021-Hunter02.png" />
+    <Resource Include="Graphics\Battlers\022-Hunter03.png" />
+    <Resource Include="Graphics\Battlers\023-Gunner01.png" />
+    <Resource Include="Graphics\Battlers\024-Gunner02.png" />
+    <Resource Include="Graphics\Battlers\025-Cleric01.png" />
+    <Resource Include="Graphics\Battlers\026-Cleric02.png" />
+    <Resource Include="Graphics\Battlers\027-Cleric03.png" />
+    <Resource Include="Graphics\Battlers\028-Cleric04.png" />
+    <Resource Include="Graphics\Battlers\029-Cleric05.png" />
+    <Resource Include="Graphics\Battlers\030-Cleric06.png" />
+    <Resource Include="Graphics\Battlers\031-Cleric07.png" />
+    <Resource Include="Graphics\Battlers\032-Cleric08.png" />
+    <Resource Include="Graphics\Battlers\033-Mage01.png" />
+    <Resource Include="Graphics\Battlers\034-Mage02.png" />
+    <Resource Include="Graphics\Battlers\035-Mage03.png" />
+    <Resource Include="Graphics\Battlers\036-Mage04.png" />
+    <Resource Include="Graphics\Battlers\037-Mage05.png" />
+    <Resource Include="Graphics\Battlers\038-Mage06.png" />
+    <Resource Include="Graphics\Battlers\039-Mage07.png" />
+    <Resource Include="Graphics\Battlers\040-Mage08.png" />
+    <Resource Include="Graphics\Battlers\041-Mage09.png" />
+    <Resource Include="Graphics\Battlers\042-King01.png" />
+    <Resource Include="Graphics\Battlers\043-Queen01.png" />
+    <Resource Include="Graphics\Battlers\044-Trader01.png" />
+    <Resource Include="Graphics\Battlers\045-Fortuneteller01.png" />
+    <Resource Include="Graphics\Battlers\046-Grappler01.png" />
+    <Resource Include="Graphics\Battlers\047-Grappler02.png" />
+    <Resource Include="Graphics\Battlers\048-Fairy01.png" />
+    <Resource Include="Graphics\Battlers\049-Soldier01.png" />
+    <Resource Include="Graphics\Battlers\050-Soldier02.png" />
+    <Resource Include="Graphics\Battlers\051-Undead01.png" />
+    <Resource Include="Graphics\Battlers\052-Undead02.png" />
+    <Resource Include="Graphics\Battlers\053-Undead03.png" />
+    <Resource Include="Graphics\Battlers\054-Undead04.png" />
+    <Resource Include="Graphics\Battlers\055-Snake01.png" />
+    <Resource Include="Graphics\Battlers\056-Snake02.png" />
+    <Resource Include="Graphics\Battlers\057-Snake03.png" />
+    <Resource Include="Graphics\Battlers\058-Snake04.png" />
+    <Resource Include="Graphics\Battlers\059-Aquatic01.png" />
+    <Resource Include="Graphics\Battlers\060-Aquatic02.png" />
+    <Resource Include="Graphics\Battlers\061-Aquatic03.png" />
+    <Resource Include="Graphics\Battlers\062-Aquatic04.png" />
+    <Resource Include="Graphics\Battlers\063-Beast01.png" />
+    <Resource Include="Graphics\Battlers\064-Beast02.png" />
+    <Resource Include="Graphics\Battlers\065-Beast03.png" />
+    <Resource Include="Graphics\Battlers\066-Beast04.png" />
+    <Resource Include="Graphics\Battlers\067-Goblin01.png" />
+    <Resource Include="Graphics\Battlers\068-Goblin02.png" />
+    <Resource Include="Graphics\Battlers\069-Goblin03.png" />
+    <Resource Include="Graphics\Battlers\070-Goblin04.png" />
+    <Resource Include="Graphics\Battlers\071-Bird01.png" />
+    <Resource Include="Graphics\Battlers\072-Bird02.png" />
+    <Resource Include="Graphics\Battlers\073-Bird03.png" />
+    <Resource Include="Graphics\Battlers\074-Bird04.png" />
+    <Resource Include="Graphics\Battlers\075-Devil01.png" />
+    <Resource Include="Graphics\Battlers\076-Devil02.png" />
+    <Resource Include="Graphics\Battlers\077-Devil03.png" />
+    <Resource Include="Graphics\Battlers\078-Devil04.png" />
+    <Resource Include="Graphics\Battlers\079-Angel01.png" />
+    <Resource Include="Graphics\Battlers\080-Angel02.png" />
+    <Resource Include="Graphics\Battlers\081-Angel03.png" />
+    <Resource Include="Graphics\Battlers\082-Angel04.png" />
+    <Resource Include="Graphics\Battlers\083-Elemental01.png" />
+    <Resource Include="Graphics\Battlers\084-Elemental02.png" />
+    <Resource Include="Graphics\Battlers\085-Elemental03.png" />
+    <Resource Include="Graphics\Battlers\086-Elemental04.png" />
+    <Resource Include="Graphics\Battlers\087-Monster01.png" />
+    <Resource Include="Graphics\Battlers\088-Monster02.png" />
+    <Resource Include="Graphics\Battlers\089-Monster03.png" />
+    <Resource Include="Graphics\Battlers\090-Monster04.png" />
+    <Resource Include="Graphics\Battlers\091-Monster05.png" />
+    <Resource Include="Graphics\Battlers\092-Monster06.png" />
+    <Resource Include="Graphics\Battlers\093-Monster07.png" />
+    <Resource Include="Graphics\Battlers\094-Monster08.png" />
+    <Resource Include="Graphics\Battlers\095-Monster09.png" />
+    <Resource Include="Graphics\Battlers\096-Monster10.png" />
+    <Resource Include="Graphics\Battlers\097-Monster11.png" />
+    <Resource Include="Graphics\Battlers\098-Monster12.png" />
+    <Resource Include="Graphics\Battlers\099-Monster13.png" />
+    <Resource Include="Graphics\Battlers\100-Monster14.png" />
+    <Resource Include="Graphics\Characters\001-Fighter01.png" />
+    <Resource Include="Graphics\Characters\002-Fighter02.png" />
+    <Resource Include="Graphics\Characters\003-Fighter03.png" />
+    <Resource Include="Graphics\Characters\004-Fighter04.png" />
+    <Resource Include="Graphics\Characters\005-Fighter05.png" />
+    <Resource Include="Graphics\Characters\006-Fighter06.png" />
+    <Resource Include="Graphics\Characters\007-Fighter07.png" />
+    <Resource Include="Graphics\Characters\008-Fighter08.png" />
+    <Resource Include="Graphics\Characters\009-Lancer01.png" />
+    <Resource Include="Graphics\Characters\010-Lancer02.png" />
+    <Resource Include="Graphics\Characters\011-Lancer03.png" />
+    <Resource Include="Graphics\Characters\012-Lancer04.png" />
+    <Resource Include="Graphics\Characters\013-Warrior01.png" />
+    <Resource Include="Graphics\Characters\014-Warrior02.png" />
+    <Resource Include="Graphics\Characters\015-Warrior03.png" />
+    <Resource Include="Graphics\Characters\016-Thief01.png" />
+    <Resource Include="Graphics\Characters\017-Thief02.png" />
+    <Resource Include="Graphics\Characters\018-Thief03.png" />
+    <Resource Include="Graphics\Characters\019-Thief04.png" />
+    <Resource Include="Graphics\Characters\020-Hunter01.png" />
+    <Resource Include="Graphics\Characters\021-Hunter02.png" />
+    <Resource Include="Graphics\Characters\022-Hunter03.png" />
+    <Resource Include="Graphics\Characters\023-Gunner01.png" />
+    <Resource Include="Graphics\Characters\024-Gunner02.png" />
+    <Resource Include="Graphics\Characters\025-Cleric01.png" />
+    <Resource Include="Graphics\Characters\026-Cleric02.png" />
+    <Resource Include="Graphics\Characters\027-Cleric03.png" />
+    <Resource Include="Graphics\Characters\028-Cleric04.png" />
+    <Resource Include="Graphics\Characters\029-Cleric05.png" />
+    <Resource Include="Graphics\Characters\030-Cleric06.png" />
+    <Resource Include="Graphics\Characters\031-Cleric07.png" />
+    <Resource Include="Graphics\Characters\032-Cleric08.png" />
+    <Resource Include="Graphics\Characters\033-Mage01.png" />
+    <Resource Include="Graphics\Characters\034-Mage02.png" />
+    <Resource Include="Graphics\Characters\035-Mage03.png" />
+    <Resource Include="Graphics\Characters\036-Mage04.png" />
+    <Resource Include="Graphics\Characters\037-Mage05.png" />
+    <Resource Include="Graphics\Characters\038-Mage06.png" />
+    <Resource Include="Graphics\Characters\039-Mage07.png" />
+    <Resource Include="Graphics\Characters\040-Mage08.png" />
+    <Resource Include="Graphics\Characters\041-Mage09.png" />
+    <Resource Include="Graphics\Characters\042-King01.png" />
+    <Resource Include="Graphics\Characters\043-Queen01.png" />
+    <Resource Include="Graphics\Characters\044-Trader01.png" />
+    <Resource Include="Graphics\Characters\045-Fortuneteller01.png" />
+    <Resource Include="Graphics\Characters\046-Grappler01.png" />
+    <Resource Include="Graphics\Characters\047-Grappler02.png" />
+    <Resource Include="Graphics\Characters\048-Fairy01.png" />
+    <Resource Include="Graphics\Characters\049-Soldier01.png" />
+    <Resource Include="Graphics\Characters\050-Soldier02.png" />
+    <Resource Include="Graphics\Characters\051-Undead01.png" />
+    <Resource Include="Graphics\Characters\052-Undead02.png" />
+    <Resource Include="Graphics\Characters\053-Undead03.png" />
+    <Resource Include="Graphics\Characters\054-Undead04.png" />
+    <Resource Include="Graphics\Characters\055-Snake01.png" />
+    <Resource Include="Graphics\Characters\056-Snake02.png" />
+    <Resource Include="Graphics\Characters\057-Snake03.png" />
+    <Resource Include="Graphics\Characters\058-Snake04.png" />
+    <Resource Include="Graphics\Characters\059-Aquatic01.png" />
+    <Resource Include="Graphics\Characters\060-Aquatic02.png" />
+    <Resource Include="Graphics\Characters\061-Aquatic03.png" />
+    <Resource Include="Graphics\Characters\062-Aquatic04.png" />
+    <Resource Include="Graphics\Characters\063-Beast01.png" />
+    <Resource Include="Graphics\Characters\064-Beast02.png" />
+    <Resource Include="Graphics\Characters\065-Beast03.PNG" />
+    <Resource Include="Graphics\Characters\066-Beast04.png" />
+    <Resource Include="Graphics\Characters\067-Goblin01.png" />
+    <Resource Include="Graphics\Characters\068-Goblin02.png" />
+    <Resource Include="Graphics\Characters\069-Goblin03.png" />
+    <Resource Include="Graphics\Characters\070-Goblin04.png" />
+    <Resource Include="Graphics\Characters\071-Bird01.png" />
+    <Resource Include="Graphics\Characters\072-Bird02.png" />
+    <Resource Include="Graphics\Characters\073-Bird03.png" />
+    <Resource Include="Graphics\Characters\074-Bird04.png" />
+    <Resource Include="Graphics\Characters\075-Devil01.png" />
+    <Resource Include="Graphics\Characters\076-Devil02.png" />
+    <Resource Include="Graphics\Characters\077-Devil03.png" />
+    <Resource Include="Graphics\Characters\078-Devil04.png" />
+    <Resource Include="Graphics\Characters\079-Angel01.png" />
+    <Resource Include="Graphics\Characters\080-Angel02.png" />
+    <Resource Include="Graphics\Characters\081-Angel03.png" />
+    <Resource Include="Graphics\Characters\082-Angel04.png" />
+    <Resource Include="Graphics\Characters\083-Elemental01.png" />
+    <Resource Include="Graphics\Characters\084-Elemental02.png" />
+    <Resource Include="Graphics\Characters\085-Elemental03.png" />
+    <Resource Include="Graphics\Characters\086-Elemental04.png" />
+    <Resource Include="Graphics\Characters\087-Monster01.png" />
+    <Resource Include="Graphics\Characters\088-Monster02.png" />
+    <Resource Include="Graphics\Characters\089-Monster03.png" />
+    <Resource Include="Graphics\Characters\090-Monster04.png" />
+    <Resource Include="Graphics\Characters\091-Monster05.png" />
+    <Resource Include="Graphics\Characters\092-Monster06.png" />
+    <Resource Include="Graphics\Characters\093-Monster07.png" />
+    <Resource Include="Graphics\Characters\094-Monster08.png" />
+    <Resource Include="Graphics\Characters\095-Monster09.png" />
+    <Resource Include="Graphics\Characters\096-Monster10.png" />
+    <Resource Include="Graphics\Characters\097-Monster11.png" />
+    <Resource Include="Graphics\Characters\098-Monster12.png" />
+    <Resource Include="Graphics\Characters\099-Monster13.png" />
+    <Resource Include="Graphics\Characters\100-Monster14.png" />
+    <Resource Include="Graphics\Characters\101-Civilian01.png" />
+    <Resource Include="Graphics\Characters\102-Civilian02.png" />
+    <Resource Include="Graphics\Characters\103-Civilian03.png" />
+    <Resource Include="Graphics\Characters\104-Civilian04.png" />
+    <Resource Include="Graphics\Characters\105-Civilian05.png" />
+    <Resource Include="Graphics\Characters\106-Civilian06.png" />
+    <Resource Include="Graphics\Characters\107-Civilian07.png" />
+    <Resource Include="Graphics\Characters\108-Civilian08.png" />
+    <Resource Include="Graphics\Characters\109-Civilian09.png" />
+    <Resource Include="Graphics\Characters\110-Civilian10.png" />
+    <Resource Include="Graphics\Characters\111-Civilian11.png" />
+    <Resource Include="Graphics\Characters\112-Civilian12.png" />
+    <Resource Include="Graphics\Characters\113-Civilian13.png" />
+    <Resource Include="Graphics\Characters\114-Civilian14.png" />
+    <Resource Include="Graphics\Characters\115-Civilian15.png" />
+    <Resource Include="Graphics\Characters\116-Civilian16.png" />
+    <Resource Include="Graphics\Characters\117-Civilian17.png" />
+    <Resource Include="Graphics\Characters\118-Civilian18.png" />
+    <Resource Include="Graphics\Characters\119-Civilian19.png" />
+    <Resource Include="Graphics\Characters\120-Civilian20.png" />
+    <Resource Include="Graphics\Characters\121-Civilian21.png" />
+    <Resource Include="Graphics\Characters\122-Civilian22.png" />
+    <Resource Include="Graphics\Characters\123-Civilian23.png" />
+    <Resource Include="Graphics\Characters\124-Civilian24.png" />
+    <Resource Include="Graphics\Characters\125-Baby01.png" />
+    <Resource Include="Graphics\Characters\126-Noble01.png" />
+    <Resource Include="Graphics\Characters\127-Noble02.png" />
+    <Resource Include="Graphics\Characters\128-Noble03.png" />
+    <Resource Include="Graphics\Characters\129-Noble04.png" />
+    <Resource Include="Graphics\Characters\130-Noble05.png" />
+    <Resource Include="Graphics\Characters\131-Noble06.png" />
+    <Resource Include="Graphics\Characters\132-Noble07.png" />
+    <Resource Include="Graphics\Characters\133-Noble08.png" />
+    <Resource Include="Graphics\Characters\134-Butler01.png" />
+    <Resource Include="Graphics\Characters\135-Maid01.png" />
+    <Resource Include="Graphics\Characters\136-Bartender01.png" />
+    <Resource Include="Graphics\Characters\137-BunnyGirl01.png" />
+    <Resource Include="Graphics\Characters\138-Cook01.png" />
+    <Resource Include="Graphics\Characters\139-Clown01.png" />
+    <Resource Include="Graphics\Characters\140-Dancer01.png" />
+    <Resource Include="Graphics\Characters\141-Bard01.png" />
+    <Resource Include="Graphics\Characters\142-Scholar01.png" />
+    <Resource Include="Graphics\Characters\143-Farmer01.png" />
+    <Resource Include="Graphics\Characters\144-Farmer02.png" />
+    <Resource Include="Graphics\Characters\145-Prisoner01.png" />
+    <Resource Include="Graphics\Characters\146-Prisoner02.png" />
+    <Resource Include="Graphics\Characters\147-Storekeeper01.png" />
+    <Resource Include="Graphics\Characters\148-Storekeeper02.png" />
+    <Resource Include="Graphics\Characters\149-Captain01.png" />
+    <Resource Include="Graphics\Characters\150-Sailor01.png" />
+    <Resource Include="Graphics\Characters\151-Animal01.png" />
+    <Resource Include="Graphics\Characters\152-Animal02.png" />
+    <Resource Include="Graphics\Characters\153-Animal03.png" />
+    <Resource Include="Graphics\Characters\154-Animal04.png" />
+    <Resource Include="Graphics\Characters\155-Animal05.png" />
+    <Resource Include="Graphics\Characters\156-Animal06.png" />
+    <Resource Include="Graphics\Characters\157-Animal07.png" />
+    <Resource Include="Graphics\Characters\158-Animal08.png" />
+    <Resource Include="Graphics\Characters\159-Small01.png" />
+    <Resource Include="Graphics\Characters\160-Small02.png" />
+    <Resource Include="Graphics\Characters\161-Small03.png" />
+    <Resource Include="Graphics\Characters\162-Small04.png" />
+    <Resource Include="Graphics\Characters\163-Small05.png" />
+    <Resource Include="Graphics\Characters\164-Small06.png" />
+    <Resource Include="Graphics\Characters\165-Small07.png" />
+    <Resource Include="Graphics\Characters\166-Small08.png" />
+    <Resource Include="Graphics\Characters\167-Small09.png" />
+    <Resource Include="Graphics\Characters\168-Small10.png" />
+    <Resource Include="Graphics\Characters\169-Small11.png" />
+    <Resource Include="Graphics\Characters\170-Door01.png" />
+    <Resource Include="Graphics\Characters\171-Door02.png" />
+    <Resource Include="Graphics\Characters\172-Door03.png" />
+    <Resource Include="Graphics\Characters\173-Door04.png" />
+    <Resource Include="Graphics\Characters\174-Chest01.png" />
+    <Resource Include="Graphics\Characters\175-Chest02.png" />
+    <Resource Include="Graphics\Characters\176-Chest03.png" />
+    <Resource Include="Graphics\Characters\177-Chest04.png" />
+    <Resource Include="Graphics\Characters\178-Switch01.png" />
+    <Resource Include="Graphics\Characters\179-Switch02.png" />
+    <Resource Include="Graphics\Characters\180-Switch03.png" />
+    <Resource Include="Graphics\Characters\181-Switch04.png" />
+    <Resource Include="Graphics\Characters\182-Rock01.png" />
+    <Resource Include="Graphics\Characters\183-Rock02.png" />
+    <Resource Include="Graphics\Characters\184-Light01.png" />
+    <Resource Include="Graphics\Characters\185-Light02.png" />
+    <Resource Include="Graphics\Characters\186-Bulletin01.png" />
+    <Resource Include="Graphics\Characters\187-Lorry01.png" />
+    <Resource Include="Graphics\Characters\188-Wagon01.png" />
+    <Resource Include="Graphics\Characters\189-Down01.png" />
+    <Resource Include="Graphics\Characters\190-Down02.png" />
+    <Resource Include="Graphics\Characters\191-Down03.png" />
+    <Resource Include="Graphics\Characters\192-Down04.png" />
+    <Resource Include="Graphics\Characters\193-Support01.png" />
+    <Resource Include="Graphics\Characters\194-Support02.png" />
+    <Resource Include="Graphics\Characters\195-Support03.png" />
+    <Resource Include="Graphics\Characters\196-Support04.png" />
+    <Resource Include="Graphics\Characters\197-Support05.png" />
+    <Resource Include="Graphics\Characters\198-Support06.png" />
+    <Resource Include="Graphics\Characters\199-Support07.png" />
+    <Resource Include="Graphics\Characters\200-Support08.png" />
+    <Resource Include="Graphics\Fogs\001-Fog01.png" />
+    <Resource Include="Graphics\Fogs\002-Clouds01.png" />
+    <Resource Include="Graphics\Fogs\003-Shade01.png" />
+    <Resource Include="Graphics\Fogs\004-Shade02.png" />
+    <Resource Include="Graphics\Fogs\005-Sandstorm01.png" />
+    <Resource Include="Graphics\Fogs\006-Sandstorm02.png" />
+    <Resource Include="Graphics\Fogs\007-Water01.png" />
+    <Resource Include="Graphics\Fogs\008-Water02.png" />
+    <Resource Include="Graphics\Fogs\009-Water03.png" />
+    <Resource Include="Graphics\Fogs\010-Water04.png" />
+    <Resource Include="Graphics\Gameovers\001-Gameover01.jpg" />
+    <Resource Include="Graphics\Icons\001-Weapon01.png" />
+    <Resource Include="Graphics\Icons\002-Weapon02.png" />
+    <Resource Include="Graphics\Icons\003-Weapon03.png" />
+    <Resource Include="Graphics\Icons\004-Weapon04.png" />
+    <Resource Include="Graphics\Icons\005-Weapon05.png" />
+    <Resource Include="Graphics\Icons\006-Weapon06.png" />
+    <Resource Include="Graphics\Icons\007-Weapon07.png" />
+    <Resource Include="Graphics\Icons\008-Weapon08.png" />
+    <Resource Include="Graphics\Icons\009-Shield01.png" />
+    <Resource Include="Graphics\Icons\010-Head01.png" />
+    <Resource Include="Graphics\Icons\011-Head02.png" />
+    <Resource Include="Graphics\Icons\012-Head03.png" />
+    <Resource Include="Graphics\Icons\013-Body01.png" />
+    <Resource Include="Graphics\Icons\014-Body02.png" />
+    <Resource Include="Graphics\Icons\015-Body03.png" />
+    <Resource Include="Graphics\Icons\016-Accessory01.png" />
+    <Resource Include="Graphics\Icons\017-Accessory02.png" />
+    <Resource Include="Graphics\Icons\018-Accessory03.png" />
+    <Resource Include="Graphics\Icons\019-Accessory04.png" />
+    <Resource Include="Graphics\Icons\020-Accessory05.png" />
+    <Resource Include="Graphics\Icons\021-Potion01.png" />
+    <Resource Include="Graphics\Icons\022-Potion02.png" />
+    <Resource Include="Graphics\Icons\023-Potion03.png" />
+    <Resource Include="Graphics\Icons\024-Potion04.png" />
+    <Resource Include="Graphics\Icons\025-Herb01.png" />
+    <Resource Include="Graphics\Icons\026-Herb02.png" />
+    <Resource Include="Graphics\Icons\027-Herb03.png" />
+    <Resource Include="Graphics\Icons\028-Herb04.png" />
+    <Resource Include="Graphics\Icons\029-Key01.png" />
+    <Resource Include="Graphics\Icons\030-Key02.png" />
+    <Resource Include="Graphics\Icons\031-Key03.png" />
+    <Resource Include="Graphics\Icons\032-Item01.png" />
+    <Resource Include="Graphics\Icons\033-Item02.png" />
+    <Resource Include="Graphics\Icons\034-Item03.png" />
+    <Resource Include="Graphics\Icons\035-Item04.png" />
+    <Resource Include="Graphics\Icons\036-Item05.png" />
+    <Resource Include="Graphics\Icons\037-Item06.png" />
+    <Resource Include="Graphics\Icons\038-Item07.png" />
+    <Resource Include="Graphics\Icons\039-Item08.png" />
+    <Resource Include="Graphics\Icons\040-Item09.png" />
+    <Resource Include="Graphics\Icons\041-Item10.png" />
+    <Resource Include="Graphics\Icons\042-Item11.png" />
+    <Resource Include="Graphics\Icons\043-Item12.png" />
+    <Resource Include="Graphics\Icons\044-Skill01.png" />
+    <Resource Include="Graphics\Icons\045-Skill02.png" />
+    <Resource Include="Graphics\Icons\046-Skill03.png" />
+    <Resource Include="Graphics\Icons\047-Skill04.png" />
+    <Resource Include="Graphics\Icons\048-Skill05.png" />
+    <Resource Include="Graphics\Icons\049-Skill06.png" />
+    <Resource Include="Graphics\Icons\050-Skill07.png" />
+    <Resource Include="Graphics\Panoramas\001-Sky01.jpg" />
+    <Resource Include="Graphics\Panoramas\002-Sky02.jpg" />
+    <Resource Include="Graphics\Panoramas\003-StarlitSky01.jpg" />
+    <Resource Include="Graphics\Panoramas\004-CloudySky01.jpg" />
+    <Resource Include="Graphics\Panoramas\005-Sunset01.jpg" />
+    <Resource Include="Graphics\Panoramas\006-Mountains01.jpg" />
+    <Resource Include="Graphics\Panoramas\007-Ocean01.jpg" />
+    <Resource Include="Graphics\Tilesets\001-Grassland01.png" />
+    <Resource Include="Graphics\Tilesets\002-Woods01.png" />
+    <Resource Include="Graphics\Tilesets\003-Forest01.png" />
+    <Resource Include="Graphics\Tilesets\004-Mountain01.png" />
+    <Resource Include="Graphics\Tilesets\005-Beach01.png" />
+    <Resource Include="Graphics\Tilesets\006-Desert01.png" />
+    <Resource Include="Graphics\Tilesets\007-Swamp01.png" />
+    <Resource Include="Graphics\Tilesets\008-Snowfield01.png" />
+    <Resource Include="Graphics\Tilesets\009-CastleTown01.png" />
+    <Resource Include="Graphics\Tilesets\010-CastleTown02.png" />
+    <Resource Include="Graphics\Tilesets\011-PortTown01.png" />
+    <Resource Include="Graphics\Tilesets\012-PortTown02.png" />
+    <Resource Include="Graphics\Tilesets\013-PostTown01.png" />
+    <Resource Include="Graphics\Tilesets\014-PostTown02.png" />
+    <Resource Include="Graphics\Tilesets\015-ForestTown01.png" />
+    <Resource Include="Graphics\Tilesets\016-ForestTown02.png" />
+    <Resource Include="Graphics\Tilesets\017-MineTown01.png" />
+    <Resource Include="Graphics\Tilesets\018-MineTown02.png" />
+    <Resource Include="Graphics\Tilesets\019-DesertTown01.png" />
+    <Resource Include="Graphics\Tilesets\020-DesertTown02.png" />
+    <Resource Include="Graphics\Tilesets\021-SnowTown01.png" />
+    <Resource Include="Graphics\Tilesets\022-SnowTown02.png" />
+    <Resource Include="Graphics\Tilesets\023-FarmVillage01.png" />
+    <Resource Include="Graphics\Tilesets\024-FarmVillage02.png" />
+    <Resource Include="Graphics\Tilesets\025-Castle01.png" />
+    <Resource Include="Graphics\Tilesets\026-Castle02.png" />
+    <Resource Include="Graphics\Tilesets\027-Castle03.png" />
+    <Resource Include="Graphics\Tilesets\028-Church01.png" />
+    <Resource Include="Graphics\Tilesets\029-Church02.png" />
+    <Resource Include="Graphics\Tilesets\030-Ship01.png" />
+    <Resource Include="Graphics\Tilesets\031-Ship02.png" />
+    <Resource Include="Graphics\Tilesets\032-Heaven01.png" />
+    <Resource Include="Graphics\Tilesets\033-Heaven02.png" />
+    <Resource Include="Graphics\Tilesets\034-Bridge01.png" />
+    <Resource Include="Graphics\Tilesets\035-Ruins01.png" />
+    <Resource Include="Graphics\Tilesets\036-Shop01.png" />
+    <Resource Include="Graphics\Tilesets\037-Fort01.png" />
+    <Resource Include="Graphics\Tilesets\038-Fort02.png" />
+    <Resource Include="Graphics\Tilesets\039-Tower01.png" />
+    <Resource Include="Graphics\Tilesets\040-Tower02.png" />
+    <Resource Include="Graphics\Tilesets\041-EvilCastle01.png" />
+    <Resource Include="Graphics\Tilesets\042-EvilCastle02.png" />
+    <Resource Include="Graphics\Tilesets\043-Cave01.png" />
+    <Resource Include="Graphics\Tilesets\044-Cave02.png" />
+    <Resource Include="Graphics\Tilesets\045-Cave03.png" />
+    <Resource Include="Graphics\Tilesets\046-Cave04.png" />
+    <Resource Include="Graphics\Tilesets\047-Mine01.png" />
+    <Resource Include="Graphics\Tilesets\048-Sewer01.png" />
+    <Resource Include="Graphics\Tilesets\049-InnerBody01.png" />
+    <Resource Include="Graphics\Tilesets\050-DarkSpace01.png" />
+    <Resource Include="Graphics\Titles\001-Title01.jpg" />
+    <Resource Include="Graphics\Transitions\001-Blind01.png" />
+    <Resource Include="Graphics\Transitions\002-Blind02.png" />
+    <Resource Include="Graphics\Transitions\003-Blind03.png" />
+    <Resource Include="Graphics\Transitions\004-Blind04.png" />
+    <Resource Include="Graphics\Transitions\005-Stripe01.png" />
+    <Resource Include="Graphics\Transitions\006-Stripe02.png" />
+    <Resource Include="Graphics\Transitions\007-Line01.png" />
+    <Resource Include="Graphics\Transitions\008-Line02.png" />
+    <Resource Include="Graphics\Transitions\009-Random01.png" />
+    <Resource Include="Graphics\Transitions\010-Random02.png" />
+    <Resource Include="Graphics\Transitions\011-Random03.png" />
+    <Resource Include="Graphics\Transitions\012-Random04.png" />
+    <Resource Include="Graphics\Transitions\013-Square01.png" />
+    <Resource Include="Graphics\Transitions\014-Square02.png" />
+    <Resource Include="Graphics\Transitions\015-Diamond01.png" />
+    <Resource Include="Graphics\Transitions\016-Diamond02.png" />
+    <Resource Include="Graphics\Transitions\017-Brick01.png" />
+    <Resource Include="Graphics\Transitions\018-Brick02.png" />
+    <Resource Include="Graphics\Transitions\019-Whorl01.png" />
+    <Resource Include="Graphics\Transitions\020-Flat01.png" />
+    <Resource Include="Graphics\Windowskins\001-Blue01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

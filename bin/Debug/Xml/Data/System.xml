@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <magic_number>30331186</magic_number>
+  <party_members>
+    <int>1</int>
+    <int>2</int>
+    <int>7</int>
+    <int>8</int>
+  </party_members>
+  <elements>
+    <string />
+    <string>炎</string>
+    <string>冰</string>
+    <string>雷</string>
+    <string>水</string>
+    <string>土</string>
+    <string>风</string>
+    <string>光</string>
+    <string>暗</string>
+    <string>对 不死</string>
+    <string>对 蛇</string>
+    <string>对 水栖</string>
+    <string>对 兽</string>
+    <string>对 鬼</string>
+    <string>对 鸟</string>
+    <string>对 恶魔</string>
+    <string>对 天使</string>
+  </elements>
+  <switches>
+    <string xsi:nil="true" />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+  </switches>
+  <variables>
+    <string xsi:nil="true" />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+    <string />
+  </variables>
+  <windowskin_name>001-Blue01</windowskin_name>
+  <title_name>001-Title01</title_name>
+  <gameover_name>001-Gameover01</gameover_name>
+  <battle_transition>003-Blind03</battle_transition>
+  <title_bgm>
+    <name>064-Slow07</name>
+    <volume>100</volume>
+    <pitch>100</pitch>
+  </title_bgm>
+  <battle_bgm>
+    <name>001-Battle01</name>
+    <volume>100</volume>
+    <pitch>100</pitch>
+  </battle_bgm>
+  <battle_end_me>
+    <name>001-Victory01</name>
+    <volume>100</volume>
+    <pitch>100</pitch>
+  </battle_end_me>
+  <gameover_me>
+    <name>005-Defeat01</name>
+    <volume>100</volume>
+    <pitch>100</pitch>
+  </gameover_me>
+  <cursor_se>
+    <name>001-System01</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </cursor_se>
+  <decision_se>
+    <name>002-System02</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </decision_se>
+  <cancel_se>
+    <name>003-System03</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </cancel_se>
+  <buzzer_se>
+    <name>004-System04</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </buzzer_se>
+  <equip_se>
+    <name>005-System05</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </equip_se>
+  <shop_se>
+    <name>006-System06</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </shop_se>
+  <save_se>
+    <name>007-System07</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </save_se>
+  <load_se>
+    <name>008-System08</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </load_se>
+  <battle_start_se>
+    <name>009-System09</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </battle_start_se>
+  <escape_se>
+    <name>010-System10</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </escape_se>
+  <actor_collapse_se>
+    <name>011-System11</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </actor_collapse_se>
+  <enemy_collapse_se>
+    <name>012-System12</name>
+    <volume>80</volume>
+    <pitch>100</pitch>
+  </enemy_collapse_se>
+  <words>
+    <gold>G</gold>
+    <hp>HP</hp>
+    <sp>SP</sp>
+    <str>力量</str>
+    <dex>灵巧</dex>
+    <agi>速度</agi>
+    <int1>魔力</int1>
+    <atk>攻击力</atk>
+    <pdef>物理防御</pdef>
+    <mdef>魔法防御</mdef>
+    <weapon>武器</weapon>
+    <armor1>盾</armor1>
+    <armor2>头</armor2>
+    <armor3>身体</armor3>
+    <armor4>装饰品</armor4>
+    <attack>攻击</attack>
+    <skill>特技</skill>
+    <guard>防御</guard>
+    <item>物品</item>
+    <equip>装备</equip>
+  </words>
+  <start_map_id>1</start_map_id>
+  <start_x>9</start_x>
+  <start_y>7</start_y>
+  <test_battlers>
+    <TestBattler>
+      <actor_id>1</actor_id>
+      <level>1</level>
+      <weapon_id>1</weapon_id>
+      <armor1_id>1</armor1_id>
+      <armor2_id>5</armor2_id>
+      <armor3_id>13</armor3_id>
+      <armor4_id>0</armor4_id>
+    </TestBattler>
+    <TestBattler>
+      <actor_id>2</actor_id>
+      <level>1</level>
+      <weapon_id>5</weapon_id>
+      <armor1_id>1</armor1_id>
+      <armor2_id>5</armor2_id>
+      <armor3_id>13</armor3_id>
+      <armor4_id>0</armor4_id>
+    </TestBattler>
+    <TestBattler>
+      <actor_id>7</actor_id>
+      <level>1</level>
+      <weapon_id>25</weapon_id>
+      <armor1_id>0</armor1_id>
+      <armor2_id>9</armor2_id>
+      <armor3_id>21</armor3_id>
+      <armor4_id>0</armor4_id>
+    </TestBattler>
+    <TestBattler>
+      <actor_id>8</actor_id>
+      <level>1</level>
+      <weapon_id>29</weapon_id>
+      <armor1_id>0</armor1_id>
+      <armor2_id>9</armor2_id>
+      <armor3_id>21</armor3_id>
+      <armor4_id>0</armor4_id>
+    </TestBattler>
+  </test_battlers>
+  <test_troop_id>1</test_troop_id>
+  <battleback_name>003-Forest01</battleback_name>
+  <battler_name>001-Fighter01</battler_name>
+  <battler_hue>0</battler_hue>
+  <edit_map_id>1</edit_map_id>
+  <_>7829367</_>
+</System>

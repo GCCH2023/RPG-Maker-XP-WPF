@@ -1,0 +1,20 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:cvt="clr-namespace:XP.Converters">
+
+    <cvt:BoolVisibilityConverter x:Key="BoolVisibilityConverter"/>
+
+    <XmlDataProvider Source="/XP;component/Data/Actors.xml" XPath="/System" x:Key="Data_Actors"/>
+    <XmlDataProvider Source="/XP;component/Data/Animations.xml" XPath="/System" x:Key="Data_Animations"/>
+    <XmlDataProvider Source="/XP;component/Data/Armors.xml" XPath="/System" x:Key="Data_Armors"/>
+    <XmlDataProvider Source="/XP;component/Data/Classes.xml" XPath="/System" x:Key="Classes"/>
+    <XmlDataProvider Source="/XP;component/Data/CommonEvents.xml" XPath="/System" x:Key="Data_CommonEvents"/>
+    <XmlDataProvider Source="/XP;component/Data/Enemies.xml" XPath="/System" x:Key="Data_Enemies"/>
+    <XmlDataProvider Source="/XP;component/Data/Items.xml" XPath="/System" x:Key="Data_Items"/>
+    <XmlDataProvider Source="/XP;component/Data/Skills.xml" XPath="/System" x:Key="Data_Skills"/>
+    <XmlDataProvider Source="/XP;component/Data/States.xml" XPath="/System" x:Key="Data_States"/>
+    <XmlDataProvider Source="/XP;component/Data/System.xml" XPath="/System" x:Key="Data_System"/>
+    <XmlDataProvider Source="/XP;component/Data/Tilesets.xml" XPath="/System" x:Key="Data_Tilesets"/>
+    <XmlDataProvider Source="/XP;component/Data/Troops.xml" XPath="/System" x:Key="Data_Troops"/>
+    <XmlDataProvider Source="/XP;component/Data/Weapons.xml" XPath="/System" x:Key="Data_Weapons"/>
+</ResourceDictionary>

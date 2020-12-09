@@ -1,0 +1,12 @@
+﻿<ContentControl x:Class="XP.NewWindows.WindowBase"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:nw="clr-namespace:XP.NewWindows"
+             xmlns:xp="clr-namespace:XP"
+             mc:Ignorable="d" 
+             d:DesignHeight="480" d:DesignWidth="640">
+    <nw:Window WindowSkin="{Binding XPath=windowskin_name, Source={StaticResource Data_System},
+            Converter={x:Static xp:Global.ImageSourceConverter}, ConverterParameter=windowskin}"/>
+</ContentControl>

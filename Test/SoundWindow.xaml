@@ -1,0 +1,9 @@
+﻿<Window x:Class="XP.Test.SoundWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SoundWindow" Height="300" Width="300">
+    <Grid>
+        <Button Content="Button" Width="75" Height="30" Margin="34,34,184,205" Click="Button_Click"/>
+
+    </Grid>
+</Window>

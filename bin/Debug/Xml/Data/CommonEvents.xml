@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCommonEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CommonEvent xsi:nil="true" />
+  <CommonEvent>
+    <id>1</id>
+    <name />
+    <trigger>0</trigger>
+    <switch_id>1</switch_id>
+    <list>
+      <EventCommand>
+        <code>0</code>
+        <indent>0</indent>
+        <parameters />
+      </EventCommand>
+    </list>
+  </CommonEvent>
+</ArrayOfCommonEvent>

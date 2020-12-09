@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfArmor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Armor xsi:nil="true" />
+  <Armor>
+    <id>1</id>
+    <name>铜盾</name>
+    <icon_name>009-Shield01</icon_name>
+    <description>青铜制造的盾。前卫系职业可以装备。</description>
+    <price>390</price>
+    <kind>0</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>22</pdef>
+    <mdef>20</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>2</id>
+    <name>铁盾</name>
+    <icon_name>009-Shield01</icon_name>
+    <description>铁制造的盾。前卫系职业可以装备。</description>
+    <price>970</price>
+    <kind>0</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>27</pdef>
+    <mdef>25</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>3</id>
+    <name>钢盾</name>
+    <icon_name>009-Shield01</icon_name>
+    <description>钢制造的盾。前卫系职业可以装备。</description>
+    <price>2400</price>
+    <kind>0</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>34</pdef>
+    <mdef>31</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>4</id>
+    <name>密斯利尔盾</name>
+    <icon_name>009-Shield01</icon_name>
+    <description>最高级的盾。前卫系职业可以装备。</description>
+    <price>6000</price>
+    <kind>0</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>42</pdef>
+    <mdef>39</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>5</id>
+    <name>铜盔</name>
+    <icon_name>010-Head01</icon_name>
+    <description>青铜制造的头盔。前卫·中卫系职业可以装备。</description>
+    <price>320</price>
+    <kind>1</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>53</pdef>
+    <mdef>47</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>6</id>
+    <name>铁盔</name>
+    <icon_name>010-Head01</icon_name>
+    <description>铁制造的头盔。前卫·中卫系职业可以装备。</description>
+    <price>800</price>
+    <kind>1</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>66</pdef>
+    <mdef>58</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>7</id>
+    <name>钢盔</name>
+    <icon_name>010-Head01</icon_name>
+    <description>钢制造的头盔。前卫·中卫系职业可以装备。</description>
+    <price>2000</price>
+    <kind>1</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>82</pdef>
+    <mdef>73</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>8</id>
+    <name>密斯利尔盔</name>
+    <icon_name>010-Head01</icon_name>
+    <description>最高级的头盔。前卫·中卫系职业可以装备。</description>
+    <price>5000</price>
+    <kind>1</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>103</pdef>
+    <mdef>91</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>9</id>
+    <name>棉帽</name>
+    <icon_name>011-Head02</icon_name>
+    <description>棉帽。后卫系职业可以装备。</description>
+    <price>250</price>
+    <kind>1</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>46</pdef>
+    <mdef>50</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>10</id>
+    <name>毡帽</name>
+    <icon_name>011-Head02</icon_name>
+    <description>牢固的帽子。后卫系职业可以装备。 </description>
+    <price>620</price>
+    <kind>1</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>57</pdef>
+    <mdef>62</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>11</id>
+    <name>魔法帽</name>
+    <icon_name>011-Head02</icon_name>
+    <description>魔法的帽子。后卫系职业可以装备。 </description>
+    <price>1500</price>
+    <kind>1</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>71</pdef>
+    <mdef>78</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>12</id>
+    <name>塞因特帽</name>
+    <icon_name>011-Head02</icon_name>
+    <description>最高级的帽子。后卫系职业可以装备。 </description>
+    <price>3900</price>
+    <kind>1</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>89</pdef>
+    <mdef>97</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>13</id>
+    <name>铜铠</name>
+    <icon_name>013-Body01</icon_name>
+    <description>青铜制造的铠甲。前卫系职业可以装备。</description>
+    <price>550</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>78</pdef>
+    <mdef>71</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>14</id>
+    <name>铁铠</name>
+    <icon_name>013-Body01</icon_name>
+    <description>铁制造的铠甲。前卫系职业可以装备。</description>
+    <price>1300</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>97</pdef>
+    <mdef>88</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>15</id>
+    <name>钢铠</name>
+    <icon_name>013-Body01</icon_name>
+    <description>钢制造的铠甲。前卫系职业可以装备。</description>
+    <price>3400</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>121</pdef>
+    <mdef>110</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>16</id>
+    <name>密斯利尔铠</name>
+    <icon_name>013-Body01</icon_name>
+    <description>最高级的铠甲。前卫系职业可以装备。</description>
+    <price>8500</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>152</pdef>
+    <mdef>138</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>17</id>
+    <name>铜板</name>
+    <icon_name>014-Body02</icon_name>
+    <description>青铜制造的铠甲。前卫·中位系职业可以装备。</description>
+    <price>470</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>74</pdef>
+    <mdef>69</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>18</id>
+    <name>铁板</name>
+    <icon_name>014-Body02</icon_name>
+    <description>铁制造的铠甲。前卫·中位系职业可以装备。</description>
+    <price>1100</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>92</pdef>
+    <mdef>86</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>19</id>
+    <name>钢板</name>
+    <icon_name>014-Body02</icon_name>
+    <description>钢制造的铠甲。前卫·中位系职业可以装备。</description>
+    <price>2900</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>115</pdef>
+    <mdef>107</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>20</id>
+    <name>密斯利尔板</name>
+    <icon_name>014-Body02</icon_name>
+    <description>最高级的铠甲。前卫·中位系职业可以装备。</description>
+    <price>7300</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>144</pdef>
+    <mdef>134</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>21</id>
+    <name>绵袍</name>
+    <icon_name>015-Body03</icon_name>
+    <description>棉袍。后卫系职业可以装备。</description>
+    <price>440</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>70</pdef>
+    <mdef>74</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>22</id>
+    <name>毡袍</name>
+    <icon_name>015-Body03</icon_name>
+    <description>牢固的袍。后卫系职业可以装备。</description>
+    <price>1100</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>87</pdef>
+    <mdef>92</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>23</id>
+    <name>魔法袍</name>
+    <icon_name>015-Body03</icon_name>
+    <description>魔法的袍。后卫系职业可以装备。</description>
+    <price>2700</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>109</pdef>
+    <mdef>115</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>24</id>
+    <name>塞因特袍</name>
+    <icon_name>015-Body03</icon_name>
+    <description>最高级的袍。后卫系职业可以装备。 </description>
+    <price>6800</price>
+    <kind>2</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>136</pdef>
+    <mdef>144</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>25</id>
+    <name>力量戒指</name>
+    <icon_name>016-Accessory01</icon_name>
+    <description>可以使力量上升的戒指。所有职业都可以装备。</description>
+    <price>2000</price>
+    <kind>3</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <eva>0</eva>
+    <str_plus>15</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>26</id>
+    <name>灵巧戒指</name>
+    <icon_name>016-Accessory01</icon_name>
+    <description>可以使灵巧上升的戒指。所有职业都可以装备。</description>
+    <price>2000</price>
+    <kind>3</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>15</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>27</id>
+    <name>速度戒指</name>
+    <icon_name>016-Accessory01</icon_name>
+    <description>可以使力量上升的戒指。所有职业都可以装备。</description>
+    <price>2000</price>
+    <kind>3</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>15</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>28</id>
+    <name>魔法戒指</name>
+    <icon_name>016-Accessory01</icon_name>
+    <description>可以使魔力上升的戒指。所有职业都可以装备。</description>
+    <price>2000</price>
+    <kind>3</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>15</int_plus>
+    <guard_element_set />
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>29</id>
+    <name>火炎戒指</name>
+    <icon_name>016-Accessory01</icon_name>
+    <description>可以抵御火炎攻击的戒指。所有职业都可以装备。</description>
+    <price>3000</price>
+    <kind>3</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set>
+      <int>1</int>
+    </guard_element_set>
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>30</id>
+    <name>冰戒指</name>
+    <icon_name>016-Accessory01</icon_name>
+    <description>可以抵御冰攻击的戒指。所有职业都可以装备。</description>
+    <price>3000</price>
+    <kind>3</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set>
+      <int>2</int>
+    </guard_element_set>
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>31</id>
+    <name>雷电戒指</name>
+    <icon_name>016-Accessory01</icon_name>
+    <description>可以抵御雷攻击的戒指。所有职业都可以装备。</description>
+    <price>3000</price>
+    <kind>3</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set>
+      <int>3</int>
+    </guard_element_set>
+    <guard_state_set />
+  </Armor>
+  <Armor>
+    <id>32</id>
+    <name>水戒指</name>
+    <icon_name>016-Accessory01</icon_name>
+    <description>可以抵御火炎攻击的戒指。所有职业都可以装备。</description>
+    <price>3000</price>
+    <kind>3</kind>
+    <auto_state_id>0</auto_state_id>
+    <pdef>0</pdef>
+    <mdef>0</mdef>
+    <eva>0</eva>
+    <str_plus>0</str_plus>
+    <dex_plus>0</dex_plus>
+    <agi_plus>0</agi_plus>
+    <int_plus>0</int_plus>
+    <guard_element_set>
+      <int>4</int>
+    </guard_element_set>
+    <guard_state_set />
+  </Armor>
+</ArrayOfArmor>
