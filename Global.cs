@@ -178,20 +178,20 @@ namespace XP
             LoadRXData();
             SaveData();
             // 地图
-            int i = 1;
-            bool exist = false;
-            while(true)
-            {
-                string filename = string.Format("Project/Data/Map{0:D3}.rxdata", i);
-                exist = System.IO.File.Exists(filename);
+            //int i = 1;
+            //bool exist = false;
+            //while(true)
+            //{
+            //    string filename = string.Format("Project/Data/Map{0:D3}.rxdata", i);
+            //    exist = System.IO.File.Exists(filename);
   
-                if (!exist)
-                    return;
+            //    if (!exist)
+            //        return;
 
-                RPG.Map map = (RPG.Map)Global.load_data(filename);
-                Utility.XML<RPG.Map>.Write(map, string.Format("Xml\\Data\\Map{0:D3}.xml", i));
-                i++;
-            }
+            //    RPG.Map map = (RPG.Map)Global.load_data(filename);
+            //    Utility.XML<RPG.Map>.Write(map, string.Format("Xml\\Data\\Map{0:D3}.xml", i));
+            //    i++;
+            //}
         }
         public static bool DEBUG { get; set; }
 
@@ -237,6 +237,7 @@ namespace XP
         {
             if (scene == null)
                 return;
+
             scene.Children.Remove(element);
             //((MainWindow)App.Current.MainWindow).GameBoard.Children.Remove(element);
         }

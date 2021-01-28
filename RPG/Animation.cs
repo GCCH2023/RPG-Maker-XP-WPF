@@ -7,7 +7,7 @@ using System.Windows.Media;
 
 namespace XP.RPG
 {
-    //        RPG.Animation
+    //RPG.Animation
     //动画的数据类。
     //父类Object 
     public class Animation

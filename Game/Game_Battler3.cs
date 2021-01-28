@@ -219,18 +219,17 @@ namespace XP
                         this.damage = "Miss";
 
                 }
-                // Miss 的情况下
-                else
-                    // 伤害设置为 "Miss"
-                    this.damage = "Miss";
-                // 不在战斗中的情况下
-                if (!Global.game_temp.in_battle)
-                    // 伤害设置为 null
-                    this.damage = null;
-                // 过程结束
-                return effective;
             }
-            return false;
+            // Miss 的情况下
+            else
+                // 伤害设置为 "Miss"
+                this.damage = "Miss";
+            // 不在战斗中的情况下
+            if (!Global.game_temp.in_battle)
+                // 伤害设置为 null
+                this.damage = null;
+            // 过程结束
+            return effective;
         }
         //--------------------------------------------------------------------------
         // ● 应用物品效果

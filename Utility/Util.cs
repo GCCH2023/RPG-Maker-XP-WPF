@@ -5,6 +5,8 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Media;
 
 namespace XP.Utility
 {
@@ -144,5 +146,32 @@ namespace XP.Utility
                 catch { }
             }
         }
+        /// <summary>
+        /// 获取文本对应的Path的字符串表示（微命令文本）
+        /// </summary>
+        /// <param name="word"></param>
+        /// <param name="fontFamily"></param>
+        /// <param name="fontSize"></param>
+        /// <returns></returns>
+        public static Geometry GetTextPath(string word, string fontFamily, int fontSize)
+        {
+            Typeface typeface = new Typeface(new FontFamily(fontFamily), FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
+            return GetTextPath(word, typeface, fontSize);
+        }
+
+        public static Geometry GetTextPath(string word, Typeface typeface, int fontSize)
+        {
+            FormattedText text = new FormattedText(word,
+                new System.Globalization.CultureInfo("zh-cn"),
+                FlowDirection.LeftToRight, typeface, fontSize,
+                Brushes.Black);
+
+            Geometry geo = text.BuildGeometry(new Point(0, 0));
+            PathGeometry path = geo.GetFlattenedPathGeometry();
+
+            return path;
+        }
+ 
+
     }
 }

@@ -13,7 +13,6 @@ E:\C#项目\RPG Maker\XP\obj\Debug\XP.pdb
 E:\C#项目\RPG Maker\XP\obj\Debug\GeneratedInternalTypeHelper.g.cs
 E:\C#项目\RPG Maker\XP\obj\Debug\XP_MarkupCompile.lref
 E:\C#项目\RPG Maker\XP\obj\Debug\Themes\Generic.baml
-E:\C#项目\RPG Maker\XP\obj\Debug\XP.csprojResolveAssemblyReference.cache
 E:\C#项目\RPG Maker\XP\obj\Debug\Scenes\SceneTitle.g.cs
 E:\C#项目\RPG Maker\XP\obj\Debug\Scenes\SceneTitle.baml
 E:\C#项目\RPG Maker\XP\obj\Debug\App.baml
@@ -28,3 +27,16 @@ E:\C#项目\RPG Maker\XP\obj\Debug\Test\TestWindow.g.cs
 E:\C#项目\RPG Maker\XP\obj\Debug\Test\TestWindow.baml
 E:\C#项目\RPG Maker\XP\obj\Debug\Test\SoundWindow.baml
 E:\C#项目\RPG Maker\XP\obj\Debug\Test\SoundWindow.g.cs
+E:\C#项目\RPG Maker\XP\obj\Debug\Themes\ArrowBase.baml
+E:\C#项目\RPG Maker\XP\obj\Debug\Arrows\ArrowEnemy.g.cs
+E:\C#项目\RPG Maker\XP\obj\Debug\Arrows\ArrowEnemy.baml
+E:\C#项目\RPG Maker\XP\obj\Debug\Scenes\SceneBattle.baml
+E:\C#项目\RPG Maker\XP\obj\Debug\Styles\ListBoxStyle.baml
+E:\C#项目\RPG Maker\XP\obj\Debug\Scenes\SceneBattle.g.cs
+E:\C#项目\RPG Maker\XP\obj\Debug\Themes\WindowCommand.baml
+E:\C#项目\RPG Maker\XP\obj\Debug\Windows\WindowBattleStatus.g.cs
+E:\C#项目\RPG Maker\XP\obj\Debug\Windows\WindowBattleStatus.baml
+E:\C#项目\RPG Maker\XP\obj\Debug\XP.csprojResolveAssemblyReference.cache
+E:\C#项目\RPG Maker\XP\obj\Debug\Sprites\SpriteBattler.g.cs
+E:\C#项目\RPG Maker\XP\obj\Debug\Sprites\SpriteBattler.baml
+E:\C#项目\RPG Maker\XP\obj\Debug\Themes\AnimationSprite.baml

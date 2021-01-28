@@ -310,16 +310,18 @@ namespace XP
                 // 无条件设置为 999
                 return 999;
 
-            // 通过实际坐标和地图的显示位置来求得画面坐标
-            var z = (this.real_y - Global.game_map.display_y + 3) / 4 + 32;
-            // 元件的情况下
-            if (this.tile_id > 0)
-                // 元件的优先不足 * 32 
-                return (int)(z + Global.game_map.priorities[this.tile_id] * 32);
-            // 角色的场合
-            else
-                // 如果高度超过 32 就判定为满足 31
-                return (int)(z + ((height > 32) ? 31 : 0));
+            return 32;
+
+            //// 通过实际坐标和地图的显示位置来求得画面坐标
+            //var z = (this.real_y - Global.game_map.display_y + 3) / 4 + 32;
+            //// 元件的情况下
+            //if (this.tile_id > 0)
+            //    // 元件的优先不足 * 32 
+            //    return (int)(z + Global.game_map.priorities[this.tile_id] * 32);
+            //// 角色的场合
+            //else
+            //    // 如果高度超过 32 就判定为满足 31
+            //    return (int)(z + ((height > 32) ? 31 : 0));
         }
         //--------------------------------------------------------------------------
         // ● 取得繁茂

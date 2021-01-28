@@ -67,13 +67,14 @@ namespace XP
             //MessageBox.Show("转换数据文件完成");
 
             sprite.flash(Colors.Red, 2);
+            sprite.color = Colors.Green;
         }
         Sprite sprite;
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            //sprite = new Sprite();
-            //sprite.bitmap = new Bitmap(@"E:\C#项目\RPG Maker\XP\Graphics\Characters\008-Fighter08.png");
-            //this.gameBoard.Children.Add(sprite);
+        //    sprite = new Sprite();
+        //    sprite.bitmap = new Bitmap(@"E:\C#项目\RPG Maker\XP\Graphics\Characters\008-Fighter08.png");
+        //    this.gameBoard.Children.Add(sprite);
 
             //plane = new Plane();
             //plane.bitmap = new Bitmap(@"E:\C#项目\RPG Maker\XP\girl.png");

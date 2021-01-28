@@ -80,7 +80,15 @@ namespace XP.Internal
         {
             this.Width = width;
             this.Height = height;
-            this.AddVisual(visual);
+            //this.AddVisual(visual);
+
+            DrawingVisual v = new DrawingVisual();
+            using(var dc = v.RenderOpen())
+            {
+                var brush = new VisualBrush(visual);
+                dc.DrawRectangle(brush, null, new Rect(0, 0, width, height));
+            }
+            this.AddVisual(v);
         }
 
         bool _is_disposed = false;
@@ -91,6 +99,7 @@ namespace XP.Internal
         {
             //this.bitmap = null;
             _is_disposed = true;
+            // this.Clear();
         }
 
         //disposed? 

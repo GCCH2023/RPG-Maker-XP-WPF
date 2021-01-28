@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="XP.SceneBattle"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:xp="clr-namespace:XP"
+             d:DesignHeight="480" d:DesignWidth="640"
+             Loaded="SceneBattle_Loaded"
+             >
+    <Canvas>
+        <!--战斗背景图-->
+        <Canvas.Background>
+            <ImageBrush ImageSource="../Graphics\Battlebacks\001-Grassland01.jpg" />
+        </Canvas.Background>
+        <!--队伍操作窗口-->
+        <xp:WindowCommand x:Name="PartyCommand" Visibility="Visible" Columns="2" Padding="20"
+                          Select="PartyCommand_Select" SelectIndexChanged="PartyCommand_SelectIndexChanged"
+                          Width="{Binding ActualWidth, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type xp:SceneBattle}}}"
+                          >
+        </xp:WindowCommand>
+        <!--提示窗口-->
+        <Border Style="{StaticResource WindowBackground}" Width="{Binding ActualWidth, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type xp:SceneBattle}}}"
+                Padding="16" Height="64" Name="HelpWindow">
+                <TextBlock Name="HelpText">某科学的超电磁场</TextBlock>
+        </Border>
+        <!--角色命令窗口-->
+        <xp:WindowCommand x:Name="ActorCommand" Canvas.Top="160" Width="160" Visibility="Visible"
+                          Select="ActorAction_Select" SelectIndexChanged="ActorAction_SelectIndexChanged">
+        </xp:WindowCommand>
+        <!--角色状态窗口-->
+        <xp:WindowBattleStatus Canvas.Top="320" Width="640" Height="160" x:Name="ActorStatusWindow"/>
+    </Canvas>
+</UserControl>

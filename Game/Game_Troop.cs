@@ -29,10 +29,7 @@ namespace XP
         List<Game_Enemy> _enemies;
         public List<Game_Enemy> enemies
         {
-            get
-            {
-                return this._enemies;
-            }
+            get { return this._enemies; }
             set { this._enemies = value; }
         }
         //--------------------------------------------------------------------------
@@ -61,10 +58,12 @@ namespace XP
             var roulette = new List<Game_Enemy>();
             // 循环
             foreach (var enemy in this.enemies)
+            {
                 // 条件符合的情况下
                 if ((!hp0 && enemy.is_exist) || (hp0 && enemy.is_hp0))
                     // 添加敌人到轮流
                     roulette.Add(enemy);
+            }
 
             // 轮流尺寸为 0 的情况下
             if (roulette.Count == 0)

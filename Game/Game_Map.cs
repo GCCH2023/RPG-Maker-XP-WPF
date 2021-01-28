@@ -295,15 +295,15 @@ namespace XP
                     // 不能通行
                     return false;
                 // 如果障碍物的接触被设置的情况下
-                else if ((this.passages[tile_id] & bit) != 0)
+                else if (((int)this.passages[(int)tile_id] & bit) != 0)
                     // 不能通行
                     return false;
                 // 如果全方向的障碍物的接触被设置的情况下
-                else if ((this.passages[tile_id] & 0x0f) == 0x0f)
+                else if (((int)this.passages[(int)tile_id] & 0x0f) == 0x0f)
                     // 不能通行
                     return false;
                 // 这以外的优先度为 0 的情况下
-                else if (this.priorities[tile_id] == 0)
+                else if ((int)this.priorities[(int)tile_id] == 0)
                     // 可以通行
                     return true;
             }
@@ -324,7 +324,7 @@ namespace XP
                     var tile_id = data[x, y, i];
                     if (tile_id == null)
                         return false;
-                    else if ((this.passages[tile_id] & 0x40) == 0x40)
+                    else if (((int)this.passages[(int)tile_id] & 0x40) == 0x40)
                         return true;
                 }
             }
@@ -344,7 +344,7 @@ namespace XP
                     var tile_id = data[x, y, i];
                     if (tile_id == null)
                         return false;
-                    else if ((this.passages[tile_id] & 0x80) == 0x80)
+                    else if (((int)this.passages[(int)tile_id] & 0x80) == 0x80)
                         return true;
                 }
             }
@@ -364,8 +364,8 @@ namespace XP
                     var tile_id = data[x, y, i];
                     if (tile_id == null)
                         return 0;
-                    else if (this.terrain_tags[tile_id] > 0)
-                        return this.terrain_tags[tile_id];
+                    else if ((int)this.terrain_tags[(int)tile_id] > 0)
+                        return (int)this.terrain_tags[(int)tile_id];
                 }
             }
             return 0;

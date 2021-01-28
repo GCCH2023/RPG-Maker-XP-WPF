@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("naudio.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("nspeex.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("girl.png")]
 
 

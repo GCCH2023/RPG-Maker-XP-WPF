@@ -9,13 +9,13 @@
              mc:Ignorable="d" 
              d:DesignHeight="480" d:DesignWidth="640">
     <!--标题图形-->
-    <xp:Scene.Background>
+    <!--<xp:Scene.Background>
         <ImageBrush ImageSource="{Binding XPath=title_name, Source={StaticResource Data_System},
             Converter={x:Static xp:Global.ImageSourceConverter}, ConverterParameter=title}"/>
-    </xp:Scene.Background>
+    </xp:Scene.Background>-->
     
     <ListBox Width="192" Height="128" Canvas.Left="224" Canvas.Top="288" FontFamily="黑体" FontSize="22"
-             Foreground="White" Background="Transparent" ItemContainerStyle="{StaticResource ListBoxItemStyle}"
+             Foreground="White" Background="Transparent"
              SelectedIndex="0">
         <!--<ListBox.Resources>
             <Style TargetType="ListBoxItem">
@@ -25,11 +25,11 @@
         <ListBox.Template>
             <ControlTemplate>
                 <Border BorderBrush="White" BorderThickness="2" CornerRadius="2">
-                    <Border.Background>
+                    <!--<Border.Background>
                         <ImageBrush ImageSource="{Binding XPath=windowskin_name, Source={StaticResource Data_System},
                             Converter={x:Static xp:Global.ImageSourceConverter}, ConverterParameter=windowskin}"
                             ViewboxUnits="Absolute" Viewbox="0, 0, 128, 128" Opacity="0.6"/>
-                    </Border.Background>
+                    </Border.Background>-->
                     <StackPanel Margin="16">
                         <ItemsPresenter/>
                     </StackPanel>

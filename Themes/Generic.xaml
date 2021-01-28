@@ -4,7 +4,9 @@
     xmlns:local="clr-namespace:XP.NewWindows">
 
     <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/XP;component/Themes\ArrowBase.xaml"/>
+        <ResourceDictionary Source="/XP;component/Themes\WindowCommand.xaml"/>
+        <ResourceDictionary Source="/XP;component/Themes\AnimationSprite.xaml"/>
     </ResourceDictionary.MergedDictionaries>
-
 
 </ResourceDictionary>

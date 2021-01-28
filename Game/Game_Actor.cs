@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,6 +18,40 @@ namespace XP
     public class Game_Actor : Game_Battler
     {
         //--------------------------------------------------------------------------
+        // ● 更改名称
+        //     name : 新的名称
+        //--------------------------------------------------------------------------
+        string _name;
+        public string name
+        {
+            set
+            {
+                if (this._name != value)
+                {
+                    this._name = value;
+                    NotifyPropertyChanged();
+                }
+            }
+            get { return this._name; }
+        }
+        //--------------------------------------------------------------------------
+        // ● 更改状态字符串
+        //     status : 新的名称
+        //--------------------------------------------------------------------------
+        string _status;
+        public string status
+        {
+            set
+            {
+                if (this._status != value)
+                {
+                    this._status = value;
+                    NotifyPropertyChanged();
+                }
+            }
+            get { return this._status; }
+        }
+        //--------------------------------------------------------------------------
         // ● 定义实例变量
         //--------------------------------------------------------------------------
         public string character_name;        // 角色 文件名
@@ -29,6 +65,14 @@ namespace XP
         public List<int> skills;      // 特技
         public int actor_id;
         public int[] exp_list;
+
+        /// <summary>
+        /// 仅用于测试或序列化
+        /// </summary>
+        public Game_Actor()
+        {
+
+        }
         //--------------------------------------------------------------------------
         // ● 初始化对像
         //     actor_id : 角色 ID
@@ -110,6 +154,7 @@ namespace XP
             this.exp_list[1] = 0;
             var pow_i = 2.4 + actor.exp_inflation / 100.0;
             for (var i = 2; i <= 100; i++)
+            {
                 if (i > actor.final_level)
                     this.exp_list[i] = 0;
                 else
@@ -117,6 +162,7 @@ namespace XP
                     var n = actor.exp_basis * (Math.Pow((i + 3), pow_i)) / (Math.Pow(5, pow_i));
                     this.exp_list[i] = this.exp_list[i - 1] + (int)n;
                 }
+            }
         }
         //--------------------------------------------------------------------------
         // ● 取得属性修正值
@@ -126,7 +172,7 @@ namespace XP
         {
             // 获取对应属性有效度的数值
             var table = new int[] { 0, 200, 150, 100, 50, 0, -100 };
-            var result = table[Global.data_classes[this.class_id].element_ranks[element_id]];
+            var result = table[(int)Global.data_classes[this.class_id].element_ranks[element_id]];
             // 防具能防御本属性的情况下效果减半
             foreach (var i in new int[] { this.armor1_id, this.armor2_id, this.armor3_id, this.armor4_id })
             {
@@ -222,7 +268,7 @@ namespace XP
         {
             get
             {
-                return Global.data_actors[this.actor_id].parameters[0, this.level];
+                return (int)Global.data_actors[this.actor_id].parameters[0, this.level];
             }
         }
         //--------------------------------------------------------------------------
@@ -232,7 +278,7 @@ namespace XP
         {
             get
             {
-                return Global.data_actors[this.actor_id].parameters[1, this.level];
+                return (int)Global.data_actors[this.actor_id].parameters[1, this.level];
             }
         }
         //--------------------------------------------------------------------------
@@ -242,7 +288,7 @@ namespace XP
         {
             get
             {
-                var n = Global.data_actors[this.actor_id].parameters[2, this.level];
+                var n = (int)Global.data_actors[this.actor_id].parameters[2, this.level];
                 var weapon = Global.data_weapons[this.weapon_id];
                 var armor1 = Global.data_armors[this.armor1_id];
                 var armor2 = Global.data_armors[this.armor2_id];
@@ -263,7 +309,7 @@ namespace XP
         {
             get
             {
-                var n = Global.data_actors[this.actor_id].parameters[3, this.level];
+                var n = (int)Global.data_actors[this.actor_id].parameters[3, this.level];
                 var weapon = Global.data_weapons[this.weapon_id];
                 var armor1 = Global.data_armors[this.armor1_id];
                 var armor2 = Global.data_armors[this.armor2_id];
@@ -284,7 +330,7 @@ namespace XP
         {
             get
             {
-                var n = Global.data_actors[this.actor_id].parameters[4, this.level];
+                var n = (int)Global.data_actors[this.actor_id].parameters[4, this.level];
                 var weapon = Global.data_weapons[this.weapon_id];
                 var armor1 = Global.data_armors[this.armor1_id];
                 var armor2 = Global.data_armors[this.armor2_id];
@@ -305,7 +351,7 @@ namespace XP
         {
             get
             {
-                var n = Global.data_actors[this.actor_id].parameters[5, this.level];
+                var n = (int)Global.data_actors[this.actor_id].parameters[5, this.level];
                 var weapon = Global.data_weapons[this.weapon_id];
                 var armor1 = Global.data_armors[this.armor1_id];
                 var armor2 = Global.data_armors[this.armor2_id];
@@ -602,7 +648,8 @@ namespace XP
                 // 检查上下限
                 var level = Math.Max(Math.Min(value, Global.data_actors[this.actor_id].final_level), 1);
                 // 更改 EXP
-                this._level = this.exp_list[value];
+                this._exp = this.exp_list[level];
+                this._level = level;
             }
             get { return this._level; }
         }
@@ -645,19 +692,7 @@ namespace XP
 
             return base.is_skill_can_use(skill_id);
         }
-        //--------------------------------------------------------------------------
-        // ● 更改名称
-        //     name : 新的名称
-        //--------------------------------------------------------------------------
-        string _name;
-        public string name
-        {
-            set
-            {
-                this._name = value;
-            }
-            get { return this._name; }
-        }
+      
         //--------------------------------------------------------------------------
         // ● 更改职业 ID
         //     class_id : 新的职业 ID
@@ -733,10 +768,11 @@ namespace XP
             get
             {
                 // 返回计算后的队伍 Z 坐标的排列顺序
-                if (this.index != null)
-                    return 4 - (int)this.index;
-                else
-                    return 0;
+                //if (this.index != null)
+                //    return 4 - (int)this.index;
+                //else
+                //    return 0;
+                return 101;
             }
         }
     }

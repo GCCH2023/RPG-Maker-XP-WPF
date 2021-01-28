@@ -83,55 +83,17 @@ namespace XP.Internal
             Global.AddUIElement(this);
         }
 
-        Viewport _viewport = null;
-        //viewport 
-        //取得生成时指定的视口（Viewport）。
-        public Viewport viewport
-        {
-            get
-            {
-                return this._viewport;
-            }
-            set
-            {
-                if (this._viewport != value)
-                {
-                    this._viewport = value;
-                    this.UpdateViewort();
-                }
-            }
-        }
-        /// <summary>
-        /// 更新窗口的视口
-        /// </summary>
-        private void UpdateViewort()
-        {
-            if (this._viewport == null || this.is_disposed)
-                return;
-
-            this.OpacityMask = this._viewport;
-        }
-
-
         //dispose
         //释放窗口。如果已经释放的话则什么也不做。
         public virtual void dispose()
         {
             Global.RemoveUIElement(this);
 
-            isDisposed = true;
+            _is_dispose = true;
         }
 
-        bool isDisposed = false;
         //disposed? 
         //窗口已经释放的话则返回真。
-        public bool is_disposed
-        {
-            get
-            {
-                return isDisposed;
-            }
-        }
         //update 
         //进行光标的闪烁，暂停标记的动画。该方法原则上 1 帧调用 1 次。
         public virtual void update()
@@ -408,16 +370,22 @@ namespace XP.Internal
         //z 
         // 窗口背景的 Z 座标。该值大的东西显示在上面。Z 座标相同的话，则后生成的对象显示在上面。
         // 窗口内容的 Z 座标为窗口背景的 Z 座标的值加上 2。
-        public int z
+        int _z = 0;
+        public virtual int z
         {
-            set
-            {
-                Canvas.SetZIndex(this, value);
-                Canvas.SetZIndex(this.content, value + 2);
-            }
             get
             {
-                return (int)Canvas.GetTop(this);
+                return _z;
+            }
+            set
+            {
+                this._z = value;
+
+                if (this.viewport != null && value < this.viewport.z)
+                    value = this.viewport.z;
+
+                Canvas.SetZIndex(this, value);
+                Canvas.SetZIndex(this.content, value + 2);
             }
         }
 
@@ -535,6 +503,49 @@ namespace XP.Internal
         private void StopCursorAnimation()
         {
             this.cursorStoryboard.Stop();
+        }
+
+        private void UpdateViewort()
+        {
+            if (this._viewport == null || this.is_disposed)
+                return;
+
+            this.OpacityMask = this._viewport;
+            // 可能要更新z值
+            this.z = this.z;
+        }
+
+        Viewport _viewport = null;
+        //viewport 
+        //取得生成时指定的视口（Viewport）。
+        public Viewport viewport
+        {
+            get
+            {
+                return this._viewport;
+            }
+            set
+            {
+                if (this._viewport != value)
+                {
+                    this._viewport = value;
+                    this.UpdateViewort();
+                }
+            }
+        }
+
+        bool _is_dispose = false;
+        // 方法dispose 
+        // 释放精灵。如果已经释放的话则什么也不做。
+
+        //disposed? 
+        //精灵已经释放的话则返回真。
+        public bool is_disposed
+        {
+            get
+            {
+                return _is_dispose;
+            }
         }
 
     }

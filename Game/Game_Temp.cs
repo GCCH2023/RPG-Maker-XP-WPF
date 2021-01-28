@@ -30,7 +30,8 @@ namespace XP
         public int num_input_digits_max = 0;// 输入数值 位数
         public bool message_window_showing = false;// 显示信息窗口
         public int common_event_id = 0;// 公共事件 ID
-        public bool in_battle = false;// 战斗中的标志
+        // 战斗中的标志
+        public bool in_battle = false;
         public bool battle_calling = false;// 调用战斗的标志
         public int battle_troop_id = 0;// 战斗 队伍 ID
         public bool battle_can_escape = false;// 战斗中 允许逃跑 ID

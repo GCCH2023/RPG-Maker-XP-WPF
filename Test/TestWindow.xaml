@@ -2,8 +2,20 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:test="clr-namespace:XP.Test"
-        Title="TestWindow" Height="300" Width="300">
-    <Grid>
-        <test:AutoTile ImageSource="/XP;component/Graphics/Autotiles/001-G_Water01.png" Tile="9"/>
+        xmlns:xp="clr-namespace:XP"
+        xmlns:ef="clr-namespace:XP.Effects"
+        xmlns:sp="clr-namespace:XP.Sprites"
+        Title="TestWindow" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded" FontFamily="黑体" FontSize="22" Foreground="White">
+    
+    <Window.Resources>
+        <Storyboard x:Key="story"/>
+    </Window.Resources>
+    <Grid Width="640" Height="480" Background="White" Name="grid">
+        <Image Source="../girl.png" Width="256">
+            <Image.Effect>
+                <ef:ToneEffect Color="Green"/>
+            </Image.Effect>
+        </Image>
     </Grid>
 </Window>

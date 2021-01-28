@@ -46,8 +46,8 @@ namespace XP
                 var autotile_name = Global.game_map.autotile_names[i];
                 this.tilemap.autotiles[i] = RPG.Cache.autotile(autotile_name);
             }
-            this.tilemap.map_data = Global.game_map.data;
             this.tilemap.priorities = Global.game_map.priorities;
+            this.tilemap.map_data = Global.game_map.data;
             // 生成远景平面
             this.panorama = new Plane(this.viewport1);
             this.panorama.z = -1000;

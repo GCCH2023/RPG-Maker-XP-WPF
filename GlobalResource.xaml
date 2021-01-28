@@ -4,7 +4,21 @@
 
     <cvt:BoolVisibilityConverter x:Key="BoolVisibilityConverter"/>
 
-    <XmlDataProvider Source="/XP;component/Data/Actors.xml" XPath="/System" x:Key="Data_Actors"/>
+    <Style TargetType="Border" x:Key="WindowBackground">
+        <Setter Property="BorderThickness" Value="2"/>
+        <Setter Property="CornerRadius" Value="2"/>
+        <Setter Property="Border.BorderBrush" Value="White"/>
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush EndPoint="1,1" StartPoint="0,0" Opacity="0.6">
+                    <GradientStop Color="#FF696BBD" Offset="0"/>
+                    <GradientStop Color="#B2333463" Offset="0.5"/>
+                    <GradientStop Color="#FF333463" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--<XmlDataProvider Source="/XP;component/Data/Actors.xml" XPath="/System" x:Key="Data_Actors"/>
     <XmlDataProvider Source="/XP;component/Data/Animations.xml" XPath="/System" x:Key="Data_Animations"/>
     <XmlDataProvider Source="/XP;component/Data/Armors.xml" XPath="/System" x:Key="Data_Armors"/>
     <XmlDataProvider Source="/XP;component/Data/Classes.xml" XPath="/System" x:Key="Classes"/>
@@ -16,5 +30,5 @@
     <XmlDataProvider Source="/XP;component/Data/System.xml" XPath="/System" x:Key="Data_System"/>
     <XmlDataProvider Source="/XP;component/Data/Tilesets.xml" XPath="/System" x:Key="Data_Tilesets"/>
     <XmlDataProvider Source="/XP;component/Data/Troops.xml" XPath="/System" x:Key="Data_Troops"/>
-    <XmlDataProvider Source="/XP;component/Data/Weapons.xml" XPath="/System" x:Key="Data_Weapons"/>
+    <XmlDataProvider Source="/XP;component/Data/Weapons.xml" XPath="/System" x:Key="Data_Weapons"/>-->
 </ResourceDictionary>

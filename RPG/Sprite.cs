@@ -5,23 +5,29 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media;
+using System.Windows.Shapes;
 using XP.Internal;
 
 namespace XP.RPG
 {
+    // 正在播放的动画的类型
+    enum AnimationType
+    {
+        None, Whiten, Appear, Escape, Collapse, Damage, Animation,
+    }
     // RPG.Sprite
     // 追加了 RPGXP 使用的各种效果处理的精灵的类。
-    //父类Sprite 
+    //父类Sprite
     public class Sprite : XP.Internal.Sprite
     {
         //定义module RPG
-        public int _whiten_duration { get; set; }
-        public int _appear_duration { get; set; }
-        public int _escape_duration { get; set; }
-        public int _collapse_duration { get; set; }
         public int _damage_duration { get; set; }
         public int _animation_duration { get; set; }
         public bool _blink { get; set; }
+
+        private AnimationType animationType = AnimationType.None;
+        private double duration = 0.0;
+
         // _static_不知道什么意思
         public static List<Animation> _animations = new List<Animation>();
         public static Dictionary<object, int> _reference_count = new Dictionary<object, int>();
@@ -32,10 +38,9 @@ namespace XP.RPG
             this.blend_type = 0;
             this.color = Color.FromArgb(128, 255, 255, 255);
             this.opacity = 255;
-            this._whiten_duration = 16;
-            this._appear_duration = 0;
-            this._escape_duration = 0;
-            this._collapse_duration = 0;
+
+            this.animationType = AnimationType.Whiten;
+            this.duration = 16;
         }
         //appear 
         //使精灵从透明状态平滑渐变为不透明状态。是复活和敌人出现时使用的效果。
@@ -44,10 +49,9 @@ namespace XP.RPG
             this.blend_type = 0;
             this.color = Colors.Transparent;
             this.opacity = 0;
-            this._appear_duration = 16;
-            this._whiten_duration = 0;
-            this._escape_duration = 0;
-            this._collapse_duration = 0;
+
+            this.animationType = AnimationType.Appear;
+            this.duration = 16;
         }
 
 
@@ -55,14 +59,12 @@ namespace XP.RPG
         //使精灵从不透明状态平滑渐变为透明状态。是敌人逃跑时使用的效果。
         public void escape()
         {
-            ;
             this.blend_type = 0;
             this.color = Colors.Transparent;
             this.opacity = 255;
-            this._escape_duration = 32;
-            this._whiten_duration = 0;
-            this._appear_duration = 0;
-            this._collapse_duration = 0;
+
+            this.animationType = AnimationType.Escape;
+            this.duration = 32;
         }
 
         //collapse 
@@ -72,15 +74,15 @@ namespace XP.RPG
             this.blend_type = 1;
             this.color = Colors.Transparent;
             this.opacity = 255;
-            this._collapse_duration = 48;
-            this._whiten_duration = 0;
-            this._appear_duration = 0;
-            this._escape_duration = 0;
+
+            this.animationType = AnimationType.Collapse;
+            this.duration = 48;
         }
 
         //damage(value, critical) 
         //使伤害的数字或“Miss”等字符串弹出在精灵前面。
-        //value 指定为正值时为表示普通伤害的白色文字，而指定为负值时为表示回复的绿色文字。且负值时不会显示符号。value 为字符串时会照原样显示白色的文字。
+        //value 指定为正值时为表示普通伤害的白色文字，而指定为负值时为表示回复的绿色文字。
+        //且负值时不会显示符号。value 为字符串时会照原样显示白色的文字。
         //critical 指定真的话，会在伤害字符串上追加小的“CRITICAL”的文字。
         //显示伤害的精灵 Z 座标是 3000。
         public void damage(object value, bool critical)
@@ -128,15 +130,11 @@ namespace XP.RPG
 
         //animation(animation, hit) 
         //以精灵作为对象，显示 animation 指定的动画（RPG.Animation）。
-
         //hit 为真则进行击中的处理，为伪则进行 MISS 的处理。这个是作为「SE 与闪烁的时机」的条件而使用。
-
         //显示动画的精灵 Z 座标是 2000。
-
         //动画对象有很多的话，可以对各个精灵调用该方法。那种情况下类内部会自动判断，[画面]中指定位置的动画单元重复显示，一样没有问题。
-
-        //显示的动画图像从 RPG.Cache 模块中取得，动画结束时为了节约内存而被释放。这样在类内部参照计数使用。通常不需要认识这个，但是在外部使用从 RPG.Cache 模块中取得的动画图像时必须注意。
-
+        //显示的动画图像从 RPG.Cache 模块中取得，动画结束时为了节约内存而被释放。这样在类内部参照计数使用。
+        //通常不需要认识这个，但是在外部使用从 RPG.Cache 模块中取得的动画图像时必须注意。
         //animation 指定 null 的话，动画停止。
         public Animation animation(Animation animation, bool hit)
         {
@@ -149,11 +147,15 @@ namespace XP.RPG
             this._animation_duration = this._animation.frame_max;
             var animation_name = this._animation.animation_name;
             var animation_hue = this._animation.animation_hue;
-            bitmap = RPG.Cache.animation(animation_name, animation_hue);
+            var bitmap = RPG.Cache.animation(animation_name, animation_hue);
+
+            // 增加引用计数
             if (_reference_count.ContainsKey(bitmap))
                 _reference_count[bitmap] += 1;
             else
-                _reference_count[bitmap] = 1;
+            {
+                _reference_count.Add(bitmap, 1);
+            }
 
             this._animation_sprites = new List<XP.Internal.Sprite>();
             if (this._animation.position != 3 || !_animations.Contains(animation))
@@ -171,20 +173,21 @@ namespace XP.RPG
             update_animation();
             return null;
         }
-        //loop_animation(animation) 
-        //以精灵作为对象，循环显示 animation 指定的动画（RPG.Animation）。
-
-        //与普通动画不同，即使到最后显示也不会停止并返回到第一帧重复。而且可以和普通动画同时显示。该方法在显示状态（RPG.State）指定的动画时使用。
-
-        //animation 指定 null 的话，动画停止。
+        // loop_animation(animation) 
+        // 以精灵作为对象，循环显示 animation 指定的动画（RPG.Animation）。
+        // 与普通动画不同，即使到最后显示也不会停止并返回到第一帧重复。
+        // 而且可以和普通动画同时显示。该方法在显示状态（RPG.State）指定的动画时使用。
+        // animation 指定 null 的话，动画停止。
         public Animation loop_animation(RPG.Animation animation)
         {
             if (animation == this._loop_animation)
                 return animation;
+
             dispose_loop_animation();
             this._loop_animation = animation;
             if (this._loop_animation == null)
                 return this._loop_animation;
+
             this._loop_animation_index = 0;
             var animation_name = this._loop_animation.animation_name;
             var animation_hue = this._loop_animation.animation_hue;
@@ -220,7 +223,6 @@ namespace XP.RPG
         //闪烁效果为 OFF。
         public void blink_off()
         {
-
             if (this._blink)
             {
                 this._blink = false;
@@ -231,20 +233,18 @@ namespace XP.RPG
         //is_blink 
         //闪烁效果为 ON 时返回真。
         public bool is_blink
-        { get { return this._blink; } }
+        {
+            get { return this._blink; } 
+        }
 
         //is_effect 
         //whiten、appear、escape、collapse、damage、animation 中有任何一个效果正在显示的话返回真。
-
         //loop_animation，blink 的状态没有影响。
         public bool is_effect
         {
             get
             {
-                return this._whiten_duration > 0 ||
-                this._appear_duration > 0 ||
-                this._escape_duration > 0 ||
-                this._collapse_duration > 0 ||
+                return this.animationType != AnimationType.None ||
                 this._damage_duration > 0 ||
                 this._animation_duration > 0;
             }
@@ -255,31 +255,36 @@ namespace XP.RPG
         public override void update()
         {
             base.update();
-            if (this._whiten_duration > 0)
-            {
-                this._whiten_duration -= 1;
-                this._color.A = (byte)(128 - (16 - this._whiten_duration) * 10);
-            }
-            if (this._appear_duration > 0)
-            {
-                this._appear_duration -= 1;
-                this.opacity = (16 - this._appear_duration) * 16;
-            }
-            if (this._escape_duration > 0)
-            {
-                this._escape_duration -= 1;
-                this.opacity = 256 - (32 - this._escape_duration) * 10;
-            }
 
-            if (this._collapse_duration > 0)
+            if (this.animationType != AnimationType.None)
             {
-                this._collapse_duration -= 1;
-                this.opacity = 256 - (48 - this._collapse_duration) * 6;
+                this.duration--;
+                if (this.duration == 0)
+                {
+                    this.animationType = AnimationType.None;
+                    this.color = Colors.Transparent;
+                }
+
+                switch (this.animationType)
+                {
+                    case AnimationType.Whiten:
+                        this._color.A = (byte)(128 - (16 - this.duration) * 10);
+                        break;
+                    case AnimationType.Appear:
+                        this.opacity = (16 - this.duration) * 16;
+                        break;
+                    case AnimationType.Escape:
+                        this.opacity = 256 - (32 - this.duration) * 10;
+                        break;
+                    case AnimationType.Collapse:
+                        this.opacity = 256 - (48 - this.duration) * 6;
+                        break;
+                }
             }
 
             if (this._damage_duration > 0)
             {
-                this._damage_duration -= 1;
+                this._damage_duration --;
                 switch (this._damage_duration)
                 {
                     case 38:
@@ -302,7 +307,7 @@ namespace XP.RPG
             }
             if (this._animation != null && (Graphics.frame_count % 2 == 0))
             {
-                this._animation_duration -= 1;
+                this._animation_duration--;
                 update_animation();
             }
             if (this._loop_animation != null && (Graphics.frame_count % 2 == 0))
@@ -328,10 +333,6 @@ namespace XP.RPG
         public Sprite(Viewport viewport = null)
             : base(viewport)
         {
-            this._whiten_duration = 0;
-            this._appear_duration = 0;
-            this._escape_duration = 0;
-            this._collapse_duration = 0;
             this._damage_duration = 0;
             this._animation_duration = 0;
             this._blink = false;
@@ -346,13 +347,11 @@ namespace XP.RPG
         }
 
 
-
-
         public void dispose_damage()
         {
             if (this._damage_sprite != null)
             {
-                this._damage_sprite.bitmap.dispose();
+                //this._damage_sprite.bitmap.dispose();
                 this._damage_sprite.dispose();
                 this._damage_sprite = null;
                 this._damage_duration = 0;
@@ -362,15 +361,20 @@ namespace XP.RPG
         {
             if (this._animation_sprites != null)
             {
-                var sprite = this._animation_sprites[0];
-                if (sprite != null)
-                {
-                    _reference_count[sprite.bitmap] -= 1;
-                    if (_reference_count[sprite.bitmap] == 0)
-                        sprite.bitmap.dispose();
-                }
+                //var scene = Global.scene.Children.Count;
+                //var sprite = this._animation_sprites[0];
+                //if (sprite != null)
+                //{
+                //    _reference_count[sprite.bitmap] -= 1;
+                //    if (_reference_count[sprite.bitmap] == 0)
+                //        sprite.bitmap.dispose();
+                //}
                 foreach (var sprite1 in this._animation_sprites)
+                {
                     sprite1.dispose();
+                    sprite1.Visibility = global::System.Windows.Visibility.Hidden;
+                }
+
                 this._animation_sprites = null;
                 this._animation = null;
             }
@@ -383,8 +387,8 @@ namespace XP.RPG
                 if (sprite != null)
                 {
                     _reference_count[sprite.bitmap] -= 1;
-                    if (_reference_count[sprite.bitmap] == 0)
-                        sprite.bitmap.dispose();
+                    //if (_reference_count[sprite.bitmap] == 0)
+                    //    sprite.bitmap.dispose();
                 }
                 foreach (var sprite1 in this._loop_animation_sprites)
                     sprite1.dispose();
@@ -400,10 +404,14 @@ namespace XP.RPG
                 var frame_index = this._animation.frame_max - this._animation_duration;
                 var cell_data = this._animation.frames[frame_index].cell_data;
                 var position = this._animation.position;
+
                 animation_set_sprites(this._animation_sprites, cell_data, position);
+
                 foreach (var timing in this._animation.timings)
+                {
                     if (timing.frame == frame_index)
                         animation_process_timing(timing, this._animation_hit);
+                }
             }
             else
                 dispose_animation();
@@ -415,8 +423,10 @@ namespace XP.RPG
             var position = this._loop_animation.position;
             animation_set_sprites(this._loop_animation_sprites, cell_data, position);
             foreach (var timing in this._loop_animation.timings)
+            {
                 if (timing.frame == frame_index)
                     animation_process_timing(timing, true);
+            }
         }
         public void animation_set_sprites(List<XP.Internal.Sprite> sprites, Table cell_data, int position)
         {
@@ -433,7 +443,7 @@ namespace XP.RPG
                     }
                 }
                 sprite.visible = true;
-                sprite.src_rect = new Rect(pattern % 5 * 192, pattern / 5 * 192, 192, 192);
+                sprite.src_rect = new Rect((int)pattern % 5 * 192, (int)pattern / 5 * 192, 192, 192);
                 if (position == 3)
                 {
                     if (this.viewport != null)
@@ -456,24 +466,23 @@ namespace XP.RPG
                     if (position == 2)
                         sprite.y += (int)this.src_rect.Height / 4;
                 }
-                sprite.x += cell_data[i, 1];
-                sprite.y += cell_data[i, 2];
+                sprite.x += (int)cell_data[i, 1];
+                sprite.y += (int)cell_data[i, 2];
                 sprite.z = 2000;
                 sprite.ox = 96;
                 sprite.oy = 96;
-                sprite.zoom_x = cell_data[i, 3] / 100.0;
-                sprite.zoom_y = cell_data[i, 3] / 100.0;
-                sprite.angle = cell_data[i, 4];
-                sprite.mirror = (cell_data[i, 5] == 1);
-                sprite.opacity = cell_data[i, 6] * this.opacity / 255.0;
-                sprite.blend_type = cell_data[i, 7];
+                sprite.zoom_x = (int)cell_data[i, 3] / 100.0;
+                sprite.zoom_y = (int)cell_data[i, 3] / 100.0;
+                sprite.angle = (int)cell_data[i, 4];
+                sprite.mirror = ((int)cell_data[i, 5] == 1);
+                sprite.opacity = (int)cell_data[i, 6] * this.opacity / 255.0;
+                sprite.blend_type = (int)cell_data[i, 7];
             }
         }
 
         public void animation_process_timing(RPG.Animation.Timing timing, bool hit)
         {
-            if (
-               (timing.condition == 0) ||
+            if ((timing.condition == 0) ||
                         (timing.condition == 1 && hit == true) ||
                         (timing.condition == 2 && hit == false))
             {
@@ -497,7 +506,6 @@ namespace XP.RPG
                 }
             }
         }
-        /// ????
         public override double x
         {
             get { return base.x; }

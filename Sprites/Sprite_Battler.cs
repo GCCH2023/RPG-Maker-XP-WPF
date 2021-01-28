@@ -81,7 +81,10 @@ namespace XP
                 this.oy = this.height;
                 // 如果是战斗不能或者是隐藏状态就把透明度设置成 0
                 if (this.battler.is_dead || this.battler.hidden)
-                    this.opacity = 0;
+                {
+                    //this.opacity = 0;
+                    this.visible = false;
+                }
             }
             // 动画 ID 与当前的情况有差异的情况下
             if (this.battler.damage == null &&
@@ -171,5 +174,4 @@ namespace XP
             this.z = this.battler.screen_z;
         }
     }
-
 }

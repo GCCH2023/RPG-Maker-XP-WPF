@@ -196,7 +196,7 @@ namespace XP
         {
             // 获取对应属性有效度的数值
             var table = new int[] { 0, 200, 150, 100, 50, 0, -100 };
-            var result = table[Global.data_enemies[this.enemy_id].element_ranks[element_id]];
+            var result = table[(int)Global.data_enemies[this.enemy_id].element_ranks[element_id]];
             // 状态能防御本属性的情况下效果减半
             foreach (var i in this.states)
                 if (Global.data_states[i].is_guard_element_set.Contains(element_id))
@@ -349,7 +349,8 @@ namespace XP
         {
             get
             {
-                return screen_y;
+                //return screen_y;
+                return 99;
             }
         }
         //--------------------------------------------------------------------------

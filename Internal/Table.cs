@@ -18,7 +18,7 @@ namespace XP
         /// <summary>
         /// 必须定义属性，不然无法从xml序列化
         /// </summary>
-        public List<int> data
+        public List<int?> data
         {
             get;
             set;
@@ -32,7 +32,7 @@ namespace XP
             this._ysize = ysize;
             this._zsize = zsize;
             var count = xsize * ysize * zsize;
-            data = new List<int>(count);
+            data = new List<int?>(count);
             for (int i = 0; i < count; i++)
                 data.Add(0);
         }
@@ -45,7 +45,7 @@ namespace XP
             this._zsize = zsize;
 
             var count = xsize * ysize * zsize;
-            data = new List<int>(count);
+            data = new List<int?>(count);
             for (int i = 0; i < count; i++)
                 data.Add(0);
         }
@@ -81,7 +81,7 @@ namespace XP
 
 
         //属性this[x] 
-        public int this[int x] 
+        public int? this[int x] 
         {
             get
             {
@@ -95,7 +95,7 @@ namespace XP
             }
         }
         //this[x, y] 
-        public int this[int x, int y]
+        public int? this[int x, int y]
         {
             get
             {
@@ -109,7 +109,7 @@ namespace XP
             }
         }
         //this[x, y, z] 
-        public int this[int x, int y, int z]
+        public int? this[int x, int y, int z]
         {
             get
             {

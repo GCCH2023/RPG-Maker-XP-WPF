@@ -15,58 +15,27 @@ namespace XP.Internal
     // Sprite
     // 精灵的类。所谓精灵，是为了在游戏画面上显示人物等的基本概念。
     //父类Object 
-    public class Sprite : Base.GameObject
+    public class Sprite : Base.ViewportObject
     {
         DrawingVisual visual = new DrawingVisual();
         SolidColorBrush colorBrush = new SolidColorBrush(Colors.White);
         //类方法new Sprite([viewport]) 
         //生成 Sprite 对象。必须要指定对应的视口（Viewport）。
-        public Sprite(Viewport viewport = null)
+        public Sprite(Viewport viewport = null) : 
+            base(viewport)
         {
             // 将精灵添加到游戏面板中
-            this.viewport = viewport;
             this.AddVisual(this.visual);
            Global.AddUIElement(this);
         }
-
-        bool _is_dispose = false;
         // 方法dispose 
         // 释放精灵。如果已经释放的话则什么也不做。
-        public virtual void dispose()
+        public override void dispose()
         {
            Global.RemoveUIElement(this);
-           _is_dispose = true;
-        }
 
-        //disposed? 
-        //精灵已经释放的话则返回真。
-        public bool is_disposed
-        {
-            get
-            {
-                return _is_dispose;
-            }
+           base.dispose();
         }
-
-        Viewport _viewport = null;
-        //viewport 
-        //取得生成时指定的视口（Viewport）。
-        public Viewport viewport
-        {
-            get
-            {
-                return this._viewport;
-            }
-            set
-            {
-                if(this._viewport != value)
-                {
-                    this._viewport = value;
-                    this.UpdateViewort();
-                }
-            }
-        }
-
         //flash(color, duration) 
         //开始精灵的闪烁。duration 是闪烁的帧数。
         //color 为闪烁的颜色，如指定为 null，闪烁时则消去精灵本身。
@@ -84,9 +53,16 @@ namespace XP.Internal
                 ColorAnimation colorAnimation = new ColorAnimation()
                 {
                     From = color,
-                    To = Colors.Transparent,
+                    To = this.color,
                     Duration = TimeSpan.FromSeconds(duration)
                 };
+                colorAnimation.Completed += (o, e) =>
+                    {
+                        var effect = (Effects.ColorEffect)this.Effect;
+                        effect.Color = this.color;
+                        // 去掉动画
+                        effect.BeginAnimation(Effects.ColorEffect.ColorProperty, null);
+                    };
                 ((Effects.ColorEffect)this.Effect).BeginAnimation(Effects.ColorEffect.ColorProperty, colorAnimation);
             }
         }
@@ -142,14 +118,6 @@ namespace XP.Internal
                     }
                 }
             }
-        }
-
-        private void UpdateViewort()
-        {
-            if (this._viewport == null || this.is_disposed)
-                return;
-
-            this.OpacityMask = this._viewport;
         }
         //src_rect 
         //传送位图的矩形（Rect）。
@@ -244,7 +212,20 @@ namespace XP.Internal
         public Color color
         {
             get { return _color; }
-            set { _color = value; }
+            set 
+            {
+                if (_color != value)
+                {
+                    _color = value;
+
+                    if (this.Effect == null)
+                    {
+                        // 添加一个改变颜色的效果
+                        this.Effect = new Effects.ColorEffect();
+                    }
+                    ((Effects.ColorEffect)this.Effect).Color = value;
+                }
+            }
         }
         // tone 
         // 精灵的色调（Tone）。

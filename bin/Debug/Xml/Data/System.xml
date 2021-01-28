@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <System xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <magic_number>30331186</magic_number>
+  <magic_number>59948266</magic_number>
   <party_members>
     <int>1</int>
     <int>2</int>

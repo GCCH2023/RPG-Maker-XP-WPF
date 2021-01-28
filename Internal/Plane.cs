@@ -56,20 +56,6 @@ namespace XP.Internal
             get { return this._is_disposed; }
         }
 
-        private Viewport _viewport;
-        //viewport 
-        //取得生成时指定的视口（Viewport）。
-        public Viewport viewport
-        {
-            get { return _viewport; }
-            set
-            {
-                _viewport = value;
-                if(value != null)
-                    this.OpacityMask = _viewport;
-            }
-        }
-
         //属性bitmap 
         //对平面使用位图（Bitmap）的参照。
         Bitmap _bitmap = null;
@@ -83,10 +69,11 @@ namespace XP.Internal
                 {
                     _bitmap = value;
 
-                    this.Background = new VisualBrush(this.bitmap)
+                    this.Background = new VisualBrush(value)
                     {
                         ViewportUnits = BrushMappingMode.Absolute,
-                        TileMode = TileMode.Tile
+                        TileMode = TileMode.Tile,
+                        Stretch = Stretch.None
                     };
 
                     Update();
@@ -104,20 +91,7 @@ namespace XP.Internal
             }
             set
             {
-                this.Visibility = visible ? Visibility.Visible : Visibility.Hidden;
-            }
-        }
-        //z 
-        //平面的 Z 座标。该值大的东西显示在上面。Z 座标相同的话，则后生成的对象显示在上面。
-        public int z
-        {
-            get
-            {
-                return Canvas.GetZIndex(this);
-            }
-            set
-            {
-                Canvas.SetZIndex(this, value);
+                this.Visibility = value ? Visibility.Visible : Visibility.Hidden;
             }
         }
         //ox 
@@ -201,5 +175,56 @@ namespace XP.Internal
         //tone 
         //平面的色调（Tone）。
         public Tone tone { get; set; }
+
+
+        private void UpdateViewort()
+        {
+            if (this._viewport == null || this.is_disposed)
+                return;
+
+            this.OpacityMask = this._viewport;
+            // 可能要更新z值
+            this.z = this.z;
+        }
+
+        Viewport _viewport = null;
+        //viewport 
+        //取得生成时指定的视口（Viewport）。
+        public Viewport viewport
+        {
+            get
+            {
+                return this._viewport;
+            }
+            set
+            {
+                if (this._viewport != value)
+                {
+                    this._viewport = value;
+                    this.UpdateViewort();
+                }
+            }
+        }
+
+        //z 
+        //平面的 Z 座标。该值大的东西显示在上面。Z 座标相同的话，则后生成的对象显示在上面。
+        int _z = 0;
+        public virtual int z
+        {
+            get
+            {
+                return _z;
+            }
+            set
+            {
+                this._z = value;
+
+                if (this.viewport != null && value < this.viewport.z)
+                    value = this.viewport.z;
+
+                Canvas.SetZIndex(this, value);
+            }
+        }
+
     }
 }

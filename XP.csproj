@@ -64,14 +64,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Animations.cs" />
+    <Compile Include="Arrows\ArrowEnemy.xaml.cs">
+      <DependentUpon>ArrowEnemy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Arrows\ArrowBase.cs" />
     <Compile Include="Arrows\Arrow_Actor.cs" />
     <Compile Include="Base\GameObject.cs" />
     <Compile Include="Base\Input.cs" />
     <Compile Include="Base\File.cs" />
     <Compile Include="Base\Sound.cs" />
+    <Compile Include="Base\ViewportObject.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="CommandItem.cs" />
     <Compile Include="Converters\BoolVisibilityConverter.cs" />
     <Compile Include="Converters\ImageSourceConverter.cs" />
     <Compile Include="Effects\ColorEffect.cs" />
+    <Compile Include="Effects\ToneEffect.cs" />
+    <Compile Include="GridPanel.cs" />
     <Compile Include="Internal\AutoTileInfo.cs" />
     <Compile Include="Internal\GridLengthConverter.cs" />
     <Compile Include="Arrows\Arrow_Base.cs" />
@@ -123,6 +133,9 @@
     <Compile Include="RPG\Weather.cs" />
     <Compile Include="RubyParseException.cs" />
     <Compile Include="Scenes\Scene.cs" />
+    <Compile Include="Scenes\SceneBattle.xaml.cs">
+      <DependentUpon>SceneBattle.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Scenes\SceneTitle.xaml.cs">
       <DependentUpon>SceneTitle.xaml</DependentUpon>
     </Compile>
@@ -146,6 +159,10 @@
     <Compile Include="Scenes\Scene_Status.cs" />
     <Compile Include="Scenes\Scene_Title.cs" />
     <Compile Include="Internal\Sprite.cs" />
+    <Compile Include="Sprites\AnimationSprite.cs" />
+    <Compile Include="Sprites\SpriteBattler.xaml.cs">
+      <DependentUpon>SpriteBattler.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Sprites\Spriteset_Battle.cs" />
     <Compile Include="Sprites\Spriteset_Map.cs" />
     <Compile Include="Sprites\Sprite_Battler.cs" />
@@ -169,6 +186,10 @@
     <Compile Include="Utility\Util.cs" />
     <Compile Include="Internal\Viewport.cs" />
     <Compile Include="Utility\XML.cs" />
+    <Compile Include="Windows\WindowBattleStatus.xaml.cs">
+      <DependentUpon>WindowBattleStatus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowCommand.cs" />
     <Compile Include="Windows\Window_Base.cs" />
     <Compile Include="Windows\Window_BattleResult.cs" />
     <Compile Include="Windows\Window_BattleStatus.cs" />
@@ -200,6 +221,10 @@
     <Compile Include="Windows\Window_Status.cs" />
     <Compile Include="Windows\Window_Steps.cs" />
     <Compile Include="Windows\Window_Target.cs" />
+    <Page Include="Arrows\ArrowEnemy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GlobalResource.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -246,7 +271,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Scenes\SceneBattle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Scenes\SceneTitle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sprites\SpriteBattler.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ListBoxStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -262,6 +299,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Themes\AnimationSprite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\ArrowBase.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Themes\Generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -271,6 +316,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Themes\Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\WindowCommand.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowBattleStatus.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -294,6 +347,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <Resource Include="Effects\Color.ps" />
+    <Resource Include="Effects\Tone.ps" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -911,6 +965,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Graphics\00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="girl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

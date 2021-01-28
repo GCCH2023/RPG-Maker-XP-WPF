@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,12 +15,92 @@ namespace XP
     // 超级类来使用。
     //==============================================================================
 
-    public partial class Game_Battler
+    public partial class Game_Battler : INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void NotifyPropertyChanged([CallerMemberName] String propertyName = "")  
+        {  
+            if(PropertyChanged != null)
+                PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        //--------------------------------------------------------------------------
+        // ● 更改 HP
+        //     hp : 新的 HP
+        //--------------------------------------------------------------------------
+        public double hp
+        {
+            get
+            {
+                return this._hp;
+            }
+            set
+            {
+                this._hp = Math.Max(Math.Min(value, maxhp), 0);
+                // 解除附加的战斗不能状态
+                for (var i = 1; i < Global.data_states.Count; i++)
+                {
+                    if (Global.data_states[i].zero_hp)
+                    {
+                        if (this.is_dead)
+                            add_state(i);
+                        else
+                            remove_state(i);
+                    }
+                }
+                // 取整
+                this._hp = Math.Floor(this._hp);
+                NotifyPropertyChanged();
+            }
+        }
+        //--------------------------------------------------------------------------
+        // ● 更改 SP
+        //     sp : 新的 SP
+        //--------------------------------------------------------------------------
+        public double sp
+        {
+            get { return this._sp; }
+            set
+            {
+                this._sp = Math.Max(Math.Min(value, maxsp), 0);
+                // 取整
+                this._sp = Math.Floor(this._sp);
+                NotifyPropertyChanged();
+            }
+        }
+        // 闪烁标志
+        bool _blink = false;
+        public bool blink
+        {
+            get { return this._blink; }
+            set
+            {
+                if (_blink != value)
+                {
+                    _blink = value;
+                    NotifyPropertyChanged();
+                }
+            }
+        }
+        // 战斗者 文件名
+        private string _battler_name; 
+        public string battler_name
+        {
+            get { return _battler_name; }
+            set 
+            {
+                if (_battler_name != value)
+                {
+                    _battler_name = value;
+                    NotifyPropertyChanged();
+                }
+            }
+        }
+
         //--------------------------------------------------------------------------
         // ● 定义实例变量
         //--------------------------------------------------------------------------
-        public string battler_name;           // 战斗者 文件名
         public int battler_hue = 0;         // 战斗者 色相
         public double _hp = 0;   // HP
         public double _sp = 0;   // SP
@@ -53,7 +135,7 @@ namespace XP
         public int animation_id = 0;          // 动画 ID
         public bool animation_hit = false;          // 动画 击中标志
         public bool white_flash = false;         // 白色屏幕闪烁标志
-        public bool blink = false;    // 闪烁标志
+
         public Game_BattleAction _current_action = new Game_BattleAction();
 
         public virtual int animation1_id { get; set; }
@@ -263,48 +345,6 @@ namespace XP
                 foreach (var i in this.states)
                     n *= Global.data_states[i].eva;
                 return n;
-            }
-        }
-        //--------------------------------------------------------------------------
-        // ● 更改 HP
-        //     hp : 新的 HP
-        //--------------------------------------------------------------------------
-        public double hp
-        {
-            get
-            {
-                return this._hp;
-            }
-            set
-            {
-                this._hp = Math.Max(Math.Min(value, maxhp), 0);
-                // 解除附加的战斗不能状态
-                for (var i = 1; i < Global.data_states.Count; i++)
-                {
-                    if (Global.data_states[i].zero_hp)
-                    {
-                        if (this.is_dead)
-                            add_state(i);
-                        else
-                            remove_state(i);
-                    }
-                }
-                // 取整
-                this._hp = Math.Floor(this._hp);
-            }
-        }
-        //--------------------------------------------------------------------------
-        // ● 更改 SP
-        //     sp : 新的 SP
-        //--------------------------------------------------------------------------
-        public double sp
-        {
-            get { return this._sp; }
-            set
-            {
-                this._sp = Math.Max(Math.Min(value, maxsp), 0);
-                // 取整
-                this._sp = Math.Floor(this._sp);
             }
         }
         //--------------------------------------------------------------------------

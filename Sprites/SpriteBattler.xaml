@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="XP.SpriteBattler"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:xp="clr-namespace:XP"
+             xmlns:ef="clr-namespace:XP.Effects"
+             mc:Ignorable="d" 
+             d:DesignHeight="608" d:DesignWidth="264" Name="sprite"
+             Loaded="SpriteBattler_Loaded">
+    <UserControl.Background>
+        <ImageBrush ImageSource="/XP;component/Graphics/00.png"/>
+    </UserControl.Background>
+
+    <UserControl.Effect>
+        <ef:ColorEffect Color="Transparent" x:Name="colorEffect"/>
+    </UserControl.Effect>
+
+    <UserControl.Resources>
+        <Storyboard x:Key="whiten">
+            <ColorAnimation Storyboard.TargetName="colorEffect" Storyboard.TargetProperty="Color"
+                                From="#80FFFFFF" To="#00FFFFFF" Duration="0:0:0.5"/>
+        </Storyboard>
+
+        <Storyboard x:Key="appear">
+            <DoubleAnimation Storyboard.TargetName="sprite" Storyboard.TargetProperty="Opacity"
+                                From="0" To="1" Duration="0:0:0.5"/>
+        </Storyboard>
+
+        <Storyboard x:Key="blink" RepeatBehavior="Forever" AutoReverse="True">
+            <ColorAnimation Storyboard.TargetName="colorEffect" Storyboard.TargetProperty="Color"
+                                From="#96FFFFFF" To="#30FFFFFF" Duration="0:0:0.5"/>
+        </Storyboard>
+
+        <Storyboard x:Key="escape">
+            <DoubleAnimation Storyboard.TargetName="sprite" Storyboard.TargetProperty="Opacity"
+                                From="1" To="0" Duration="0:0:0.5"/>
+        </Storyboard>
+
+        <Storyboard x:Key="collapse">
+            <DoubleAnimation Storyboard.TargetName="sprite" Storyboard.TargetProperty="Opacity"
+                                From="1" To="0" Duration="0:0:0.5"/>
+            <ColorAnimation Storyboard.TargetName="colorEffect" Storyboard.TargetProperty="Color"
+                                To="Red" Duration="0:0:0.5"/>
+        </Storyboard>
+
+        <Storyboard x:Key="damage">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="translate" Storyboard.TargetProperty="Y">
+                <DiscreteDoubleKeyFrame Value="0" KeyTime="0:0:0"/>
+                <EasingDoubleKeyFrame Value="20" KeyTime="0:0:0.4">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <BackEase Amplitude="2" EasingMode="EaseIn"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <DiscreteDoubleKeyFrame Value="20" KeyTime="0:0:8"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+
+    </UserControl.Resources>
+
+
+    <Canvas>
+               
+        <!--<Canvas.Triggers>
+            <EventTrigger RoutedEvent="Loaded">
+                <EventTrigger.Actions>
+                    <BeginStoryboard Storyboard="{StaticResource blink}"/>
+                </EventTrigger.Actions>
+            </EventTrigger>
+        </Canvas.Triggers>-->
+
+        <TextBlock FontSize="32" FontFamily="Arial" Name="damageTextBlock" Foreground="White" Visibility="Hidden">
+            <TextBlock.RenderTransform>
+                <TranslateTransform x:Name="translate"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+    </Canvas>
+</UserControl>

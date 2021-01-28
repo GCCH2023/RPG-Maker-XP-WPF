@@ -492,10 +492,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -509,10 +513,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>85</blue>
-          <alpha>170</alpha>
+          <A>170</A>
+          <R>255</R>
+          <G>255</G>
+          <B>85</B>
+          <ScA>0.6666667</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.09084171</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -1114,10 +1122,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -1131,10 +1143,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>204</alpha>
+          <A>204</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>0.8</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -1688,10 +1704,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -1705,10 +1725,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>6</flash_duration>
         <condition>0</condition>
@@ -1722,10 +1746,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -1877,10 +1905,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -1894,10 +1926,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -2103,10 +2139,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -2120,10 +2160,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -2137,10 +2181,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -2154,10 +2202,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -2309,10 +2361,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -2326,10 +2382,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>1</condition>
@@ -2343,10 +2403,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -2498,10 +2562,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -2515,10 +2583,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -2718,10 +2790,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -2735,10 +2811,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -2890,10 +2970,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -2907,10 +2991,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -3062,10 +3150,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -3079,10 +3171,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -3296,10 +3392,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -3313,10 +3413,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -3530,10 +3634,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -3547,10 +3655,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>1</condition>
@@ -3764,10 +3876,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -3781,10 +3897,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -3798,10 +3918,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -3953,10 +4077,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -3970,10 +4098,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -4275,10 +4407,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -4292,10 +4428,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>170</red>
-          <green>255</green>
-          <blue>204</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>170</R>
+          <G>255</G>
+          <B>204</B>
+          <ScA>1</ScA>
+          <ScR>0.401977777</ScR>
+          <ScG>1</ScG>
+          <ScB>0.603827357</ScB>
         </flash_color>
         <flash_duration>6</flash_duration>
         <condition>0</condition>
@@ -4851,10 +4991,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -4868,10 +5012,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>170</red>
-          <green>255</green>
-          <blue>204</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>170</R>
+          <G>255</G>
+          <B>204</B>
+          <ScA>1</ScA>
+          <ScR>0.401977777</ScR>
+          <ScG>1</ScG>
+          <ScB>0.603827357</ScB>
         </flash_color>
         <flash_duration>6</flash_duration>
         <condition>0</condition>
@@ -5463,10 +5611,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -5480,10 +5632,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>170</red>
-          <green>255</green>
-          <blue>204</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>170</R>
+          <G>255</G>
+          <B>204</B>
+          <ScA>1</ScA>
+          <ScR>0.401977777</ScR>
+          <ScG>1</ScG>
+          <ScB>0.603827357</ScB>
         </flash_color>
         <flash_duration>6</flash_duration>
         <condition>0</condition>
@@ -5817,10 +5973,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -5834,10 +5994,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>6</flash_duration>
         <condition>0</condition>
@@ -6517,10 +6681,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -6534,10 +6702,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>6</flash_duration>
         <condition>0</condition>
@@ -7307,10 +7479,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -7324,10 +7500,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>153</blue>
-          <alpha>170</alpha>
+          <A>170</A>
+          <R>255</R>
+          <G>255</G>
+          <B>153</B>
+          <ScA>0.6666667</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -7341,10 +7521,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>153</blue>
-          <alpha>170</alpha>
+          <A>170</A>
+          <R>255</R>
+          <G>255</G>
+          <B>153</B>
+          <ScA>0.6666667</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -7358,10 +7542,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>153</blue>
-          <alpha>170</alpha>
+          <A>170</A>
+          <R>255</R>
+          <G>255</G>
+          <B>153</B>
+          <ScA>0.6666667</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -7375,10 +7563,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>6</flash_duration>
         <condition>0</condition>
@@ -8114,10 +8306,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -8131,10 +8327,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>255</green>
-          <blue>204</blue>
-          <alpha>204</alpha>
+          <A>204</A>
+          <R>136</R>
+          <G>255</G>
+          <B>204</B>
+          <ScA>0.8</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>1</ScG>
+          <ScB>0.603827357</ScB>
         </flash_color>
         <flash_duration>7</flash_duration>
         <condition>0</condition>
@@ -8148,10 +8348,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>255</green>
-          <blue>204</blue>
-          <alpha>204</alpha>
+          <A>204</A>
+          <R>136</R>
+          <G>255</G>
+          <B>204</B>
+          <ScA>0.8</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>1</ScG>
+          <ScB>0.603827357</ScB>
         </flash_color>
         <flash_duration>7</flash_duration>
         <condition>0</condition>
@@ -8165,10 +8369,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>255</green>
-          <blue>204</blue>
-          <alpha>204</alpha>
+          <A>204</A>
+          <R>136</R>
+          <G>255</G>
+          <B>204</B>
+          <ScA>0.8</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>1</ScG>
+          <ScB>0.603827357</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -8961,10 +9169,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -8978,10 +9190,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>255</green>
-          <blue>204</blue>
-          <alpha>204</alpha>
+          <A>204</A>
+          <R>136</R>
+          <G>255</G>
+          <B>204</B>
+          <ScA>0.8</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>1</ScG>
+          <ScB>0.603827357</ScB>
         </flash_color>
         <flash_duration>7</flash_duration>
         <condition>0</condition>
@@ -8995,10 +9211,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>255</green>
-          <blue>204</blue>
-          <alpha>204</alpha>
+          <A>204</A>
+          <R>136</R>
+          <G>255</G>
+          <B>204</B>
+          <ScA>0.8</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>1</ScG>
+          <ScB>0.603827357</ScB>
         </flash_color>
         <flash_duration>7</flash_duration>
         <condition>0</condition>
@@ -9012,10 +9232,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>255</green>
-          <blue>204</blue>
-          <alpha>204</alpha>
+          <A>204</A>
+          <R>136</R>
+          <G>255</G>
+          <B>204</B>
+          <ScA>0.8</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>1</ScG>
+          <ScB>0.603827357</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -9355,10 +9579,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -9372,10 +9600,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -9920,10 +10152,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -9937,10 +10173,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -10324,10 +10564,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -10341,10 +10585,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>204</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>204</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.603827357</ScB>
         </flash_color>
         <flash_duration>6</flash_duration>
         <condition>0</condition>
@@ -10914,10 +11162,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -10931,10 +11183,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>204</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>204</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.603827357</ScB>
         </flash_color>
         <flash_duration>6</flash_duration>
         <condition>0</condition>
@@ -11131,10 +11387,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -11148,10 +11408,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>68</green>
-          <blue>0</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>68</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.05780543</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -11518,10 +11782,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -11535,10 +11803,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>68</green>
-          <blue>0</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>68</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.05780543</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -11552,10 +11824,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>68</green>
-          <blue>0</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>68</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.05780543</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -12869,10 +13145,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -12886,10 +13166,14 @@
         </se>
         <flash_scope>2</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>68</green>
-          <blue>0</blue>
-          <alpha>102</alpha>
+          <A>102</A>
+          <R>255</R>
+          <G>68</G>
+          <B>0</B>
+          <ScA>0.4</ScA>
+          <ScR>1</ScR>
+          <ScG>0.05780543</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -12903,10 +13187,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>68</green>
-          <blue>0</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>68</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.05780543</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -12920,10 +13208,14 @@
         </se>
         <flash_scope>2</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>68</green>
-          <blue>0</blue>
-          <alpha>102</alpha>
+          <A>102</A>
+          <R>255</R>
+          <G>68</G>
+          <B>0</B>
+          <ScA>0.4</ScA>
+          <ScR>1</ScR>
+          <ScG>0.05780543</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -12937,10 +13229,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>68</green>
-          <blue>0</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>68</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.05780543</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -12954,10 +13250,14 @@
         </se>
         <flash_scope>2</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>68</green>
-          <blue>0</blue>
-          <alpha>102</alpha>
+          <A>102</A>
+          <R>255</R>
+          <G>68</G>
+          <B>0</B>
+          <ScA>0.4</ScA>
+          <ScR>1</ScR>
+          <ScG>0.05780543</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -12971,10 +13271,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>68</green>
-          <blue>0</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>68</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.05780543</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -13280,10 +13584,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -13297,10 +13605,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -13314,10 +13626,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -13919,10 +14235,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -13936,10 +14256,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -13953,10 +14277,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>7</flash_duration>
         <condition>0</condition>
@@ -15094,10 +15422,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -15111,10 +15443,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -15128,10 +15464,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -15145,10 +15485,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -15162,10 +15506,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>204</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>204</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.603827357</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>6</flash_duration>
         <condition>0</condition>
@@ -15371,10 +15719,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -15388,10 +15740,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -15405,10 +15761,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -15422,10 +15782,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -15730,10 +16094,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -15747,10 +16115,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -15764,10 +16136,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>0</condition>
@@ -15781,10 +16157,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -15798,10 +16178,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -15815,10 +16199,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -16740,10 +17128,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -16757,10 +17149,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -16774,10 +17170,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -16791,10 +17191,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>136</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>136</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.246201321</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -16808,10 +17212,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>136</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>136</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.246201321</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -16825,10 +17233,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -17110,10 +17522,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -17127,10 +17543,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -17144,10 +17564,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -17161,10 +17585,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>6</flash_duration>
         <condition>0</condition>
@@ -17486,10 +17914,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -17503,10 +17935,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -17520,10 +17956,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -17537,10 +17977,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -17554,10 +17998,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -18623,10 +19071,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -18640,10 +19092,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -18657,10 +19113,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -18674,10 +19134,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -18691,10 +19155,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>187</alpha>
+          <A>187</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>0.733333349</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -18708,10 +19176,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>170</alpha>
+          <A>170</A>
+          <R>221</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>0.6666667</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -19301,10 +19773,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -19318,10 +19794,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -19335,10 +19815,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -19902,10 +20386,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -19919,10 +20407,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -19936,10 +20428,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -19953,10 +20449,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -21382,10 +21882,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -21399,10 +21903,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>187</alpha>
+          <A>187</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>0.733333349</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -21416,10 +21924,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>187</alpha>
+          <A>187</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>0.733333349</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -21433,10 +21945,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>187</alpha>
+          <A>187</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>0.733333349</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -21450,10 +21966,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>187</alpha>
+          <A>187</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>0.733333349</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -21467,10 +21987,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>187</alpha>
+          <A>187</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>0.733333349</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -21484,10 +22008,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>187</alpha>
+          <A>187</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>0.733333349</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -21817,10 +22345,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -21834,10 +22366,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -21851,10 +22387,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -21868,10 +22408,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -22158,10 +22702,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -22175,10 +22723,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -22192,10 +22744,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -22209,10 +22765,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -22226,10 +22786,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -22767,10 +23331,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -22784,10 +23352,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -22801,10 +23373,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -22818,10 +23394,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -22835,10 +23415,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -22852,10 +23436,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -22869,10 +23457,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>221</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -23250,10 +23842,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -23267,10 +23863,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -23284,10 +23884,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -23729,10 +24333,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -23746,10 +24354,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -23763,10 +24375,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -24372,10 +24988,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -24389,10 +25009,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>170</red>
-          <green>255</green>
-          <blue>221</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>170</R>
+          <G>255</G>
+          <B>221</B>
+          <ScA>1</ScA>
+          <ScR>0.401977777</ScR>
+          <ScG>1</ScG>
+          <ScB>0.7230551</ScB>
         </flash_color>
         <flash_duration>8</flash_duration>
         <condition>0</condition>
@@ -24634,10 +25258,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -24651,10 +25279,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>0</green>
-          <blue>153</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>102</R>
+          <G>0</G>
+          <B>153</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>0</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -24668,10 +25300,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>0</green>
-          <blue>153</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>102</R>
+          <G>0</G>
+          <B>153</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>0</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -25137,10 +25773,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -25154,10 +25794,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>0</green>
-          <blue>153</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>102</R>
+          <G>0</G>
+          <B>153</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>0</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -25171,10 +25815,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>0</green>
-          <blue>153</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>102</R>
+          <G>0</G>
+          <B>153</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>0</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -25188,10 +25836,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>0</green>
-          <blue>153</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>102</R>
+          <G>0</G>
+          <B>153</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>0</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -26017,10 +26669,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -26034,10 +26690,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>0</green>
-          <blue>153</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>102</R>
+          <G>0</G>
+          <B>153</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>0</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -26051,10 +26711,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>0</green>
-          <blue>153</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>102</R>
+          <G>0</G>
+          <B>153</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>0</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -26068,10 +26732,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>0</green>
-          <blue>153</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>102</R>
+          <G>0</G>
+          <B>153</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>0</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -26085,10 +26753,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>0</green>
-          <blue>153</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>102</R>
+          <G>0</G>
+          <B>153</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>0</ScG>
+          <ScB>0.318546772</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -26426,10 +27098,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -26443,10 +27119,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -26460,10 +27140,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>187</alpha>
+          <A>187</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>0.733333349</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -26477,10 +27161,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>170</alpha>
+          <A>170</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>0.6666667</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -26494,10 +27182,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -27635,10 +28327,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -27652,10 +28348,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -27669,10 +28369,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -27686,10 +28390,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -27703,10 +28411,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -28428,10 +29140,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -28445,10 +29161,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>0</green>
-          <blue>187</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>136</R>
+          <G>0</G>
+          <B>187</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>0</ScG>
+          <ScB>0.496932983</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -28462,10 +29182,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>0</green>
-          <blue>187</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>136</R>
+          <G>0</G>
+          <B>187</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>0</ScG>
+          <ScB>0.496932983</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -28479,10 +29203,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>0</green>
-          <blue>187</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>136</R>
+          <G>0</G>
+          <B>187</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>0</ScG>
+          <ScB>0.496932983</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -28796,10 +29524,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -28813,10 +29545,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>0</green>
-          <blue>187</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>136</R>
+          <G>0</G>
+          <B>187</B>
+          <ScA>1</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>0</ScG>
+          <ScB>0.496932983</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>0</condition>
@@ -28830,10 +29566,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>0</green>
-          <blue>187</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>136</R>
+          <G>0</G>
+          <B>187</B>
+          <ScA>1</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>0</ScG>
+          <ScB>0.496932983</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -29195,10 +29935,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -29640,10 +30384,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -29657,10 +30405,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -30118,10 +30870,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -30699,10 +31455,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -30716,10 +31476,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>119</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>255</R>
+          <G>255</G>
+          <B>119</B>
+          <ScA>0.8666667</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.18447499</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -30733,10 +31497,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>119</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>255</R>
+          <G>255</G>
+          <B>119</B>
+          <ScA>0.8666667</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.18447499</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -30750,10 +31518,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>119</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>255</R>
+          <G>255</G>
+          <B>119</B>
+          <ScA>0.8666667</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.18447499</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -30767,10 +31539,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>119</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>255</R>
+          <G>255</G>
+          <B>119</B>
+          <ScA>0.8666667</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.18447499</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>0</condition>
@@ -31144,10 +31920,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -31161,10 +31941,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>153</alpha>
+          <A>153</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.6</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -31178,10 +31962,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>85</alpha>
+          <A>85</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.333333343</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>0</condition>
@@ -31195,10 +31983,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>85</alpha>
+          <A>85</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.333333343</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -31572,10 +32364,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>153</alpha>
+          <A>153</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.6</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -31589,10 +32385,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>153</alpha>
+          <A>153</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.6</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -31606,10 +32406,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>85</alpha>
+          <A>85</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.333333343</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>0</condition>
@@ -31623,10 +32427,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>85</alpha>
+          <A>85</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.333333343</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -32000,10 +32808,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -32017,10 +32829,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -32034,10 +32850,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>153</alpha>
+          <A>153</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.6</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -32051,10 +32871,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>85</alpha>
+          <A>85</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.333333343</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>0</condition>
@@ -32068,10 +32892,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>85</alpha>
+          <A>85</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.333333343</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -32445,10 +33273,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -32462,10 +33294,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>153</alpha>
+          <A>153</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.6</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -32479,10 +33315,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>85</alpha>
+          <A>85</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.333333343</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>0</condition>
@@ -32496,10 +33336,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>85</alpha>
+          <A>85</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.333333343</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -32957,10 +33801,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -32974,10 +33822,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>153</alpha>
+          <A>153</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.6</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -32991,10 +33843,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>0</green>
-          <blue>0</blue>
-          <alpha>153</alpha>
+          <A>153</A>
+          <R>221</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.6</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -33356,10 +34212,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -33761,10 +34621,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -33778,10 +34642,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>255</green>
-          <blue>187</blue>
-          <alpha>153</alpha>
+          <A>153</A>
+          <R>102</R>
+          <G>255</G>
+          <B>187</B>
+          <ScA>0.6</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>1</ScG>
+          <ScB>0.496932983</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -34239,10 +35107,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>255</green>
-          <blue>17</blue>
-          <alpha>153</alpha>
+          <A>153</A>
+          <R>102</R>
+          <G>255</G>
+          <B>17</B>
+          <ScA>0.6</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>1</ScG>
+          <ScB>0.00560539169</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -34256,10 +35128,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>255</green>
-          <blue>17</blue>
-          <alpha>153</alpha>
+          <A>153</A>
+          <R>102</R>
+          <G>255</G>
+          <B>17</B>
+          <ScA>0.6</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>1</ScG>
+          <ScB>0.00560539169</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -34273,10 +35149,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>102</red>
-          <green>255</green>
-          <blue>17</blue>
-          <alpha>153</alpha>
+          <A>153</A>
+          <R>102</R>
+          <G>255</G>
+          <B>17</B>
+          <ScA>0.6</ScA>
+          <ScR>0.13286832</ScR>
+          <ScG>1</ScG>
+          <ScB>0.00560539169</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -34570,10 +35450,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -34587,10 +35471,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -34604,10 +35492,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -34979,10 +35871,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -34996,10 +35892,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>1</condition>
@@ -35013,10 +35913,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -35357,10 +36261,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -35374,10 +36282,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>1</condition>
@@ -35391,10 +36303,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>68</red>
-          <green>255</green>
-          <blue>170</blue>
-          <alpha>136</alpha>
+          <A>136</A>
+          <R>68</R>
+          <G>255</G>
+          <B>170</B>
+          <ScA>0.533333361</ScA>
+          <ScR>0.05780543</ScR>
+          <ScG>1</ScG>
+          <ScB>0.401977777</ScB>
         </flash_color>
         <flash_duration>7</flash_duration>
         <condition>1</condition>
@@ -35886,10 +36802,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -35903,10 +36823,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -35920,10 +36844,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -35937,10 +36865,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -35954,10 +36886,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -35971,10 +36907,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -36392,10 +37332,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -36409,10 +37353,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>1</condition>
@@ -36426,10 +37374,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -36811,10 +37763,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -36828,10 +37784,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>1</condition>
@@ -36845,10 +37805,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>1</condition>
@@ -36862,10 +37826,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>1</condition>
@@ -36879,10 +37847,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>136</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>136</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.246201321</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -36896,10 +37868,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>136</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>136</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.246201321</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>1</condition>
@@ -37269,10 +38245,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -37286,10 +38266,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -37303,10 +38287,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -37320,10 +38308,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -37337,10 +38329,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>187</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>204</alpha>
+          <A>204</A>
+          <R>187</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>0.8</ScA>
+          <ScR>0.496932983</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -37354,10 +38350,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>187</red>
-          <green>153</green>
-          <blue>255</blue>
-          <alpha>204</alpha>
+          <A>204</A>
+          <R>187</R>
+          <G>153</G>
+          <B>255</B>
+          <ScA>0.8</ScA>
+          <ScR>0.496932983</ScR>
+          <ScG>0.318546772</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -37785,10 +38785,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -37802,10 +38806,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>1</condition>
@@ -37819,10 +38827,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>1</condition>
@@ -37836,10 +38848,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>1</flash_duration>
         <condition>1</condition>
@@ -37853,10 +38869,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>102</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>102</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>0.13286832</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -38209,10 +39229,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -38226,10 +39250,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -38243,10 +39271,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>68</green>
-          <blue>68</blue>
-          <alpha>170</alpha>
+          <A>170</A>
+          <R>255</R>
+          <G>68</G>
+          <B>68</B>
+          <ScA>0.6666667</ScA>
+          <ScR>1</ScR>
+          <ScG>0.05780543</ScG>
+          <ScB>0.05780543</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>1</condition>
@@ -38599,10 +39631,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -38616,10 +39652,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -38633,10 +39673,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>221</red>
-          <green>51</green>
-          <blue>187</blue>
-          <alpha>170</alpha>
+          <A>170</A>
+          <R>221</R>
+          <G>51</G>
+          <B>187</B>
+          <ScA>0.6666667</ScA>
+          <ScR>0.7230551</ScR>
+          <ScG>0.0331047662</ScG>
+          <ScB>0.496932983</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>1</condition>
@@ -39519,10 +40563,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -39536,10 +40584,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -39553,10 +40605,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>187</green>
-          <blue>255</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>136</R>
+          <G>187</G>
+          <B>255</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>0.496932983</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>1</condition>
@@ -40164,10 +41220,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -40181,10 +41241,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -40198,10 +41262,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -40215,10 +41283,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -40634,10 +41706,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -40651,10 +41727,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -40668,10 +41748,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -40685,10 +41769,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>187</red>
-          <green>34</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>187</R>
+          <G>34</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0.496932983</ScR>
+          <ScG>0.0159962941</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -40970,10 +42058,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -40987,10 +42079,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -41004,10 +42100,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -41021,10 +42121,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -41390,10 +42494,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -41407,10 +42515,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -41424,10 +42536,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>1</condition>
@@ -41933,10 +43049,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -41950,10 +43070,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -41967,10 +43091,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -41984,10 +43112,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -42001,10 +43133,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -42018,10 +43154,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -42371,10 +43511,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -42388,10 +43532,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -42685,10 +43833,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -42702,10 +43854,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -43039,10 +44195,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -43056,10 +44216,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -43789,10 +44953,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -43806,10 +44974,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -43823,10 +44995,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -43840,10 +45016,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -43857,10 +45037,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>1</condition>
@@ -44200,10 +45384,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -44217,10 +45405,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -44234,10 +45426,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -44251,10 +45447,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -44616,10 +45816,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -44633,10 +45837,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -44650,10 +45858,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>136</green>
-          <blue>85</blue>
-          <alpha>170</alpha>
+          <A>170</A>
+          <R>255</R>
+          <G>136</G>
+          <B>85</B>
+          <ScA>0.6666667</ScA>
+          <ScR>1</ScR>
+          <ScG>0.246201321</ScG>
+          <ScB>0.09084171</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>1</condition>
@@ -45099,10 +46311,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -45116,10 +46332,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>4</flash_duration>
         <condition>1</condition>
@@ -45133,10 +46353,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>204</green>
-          <blue>255</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>136</R>
+          <G>204</G>
+          <B>255</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>0.603827357</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -45150,10 +46374,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>136</red>
-          <green>204</green>
-          <blue>255</blue>
-          <alpha>221</alpha>
+          <A>221</A>
+          <R>136</R>
+          <G>204</G>
+          <B>255</B>
+          <ScA>0.8666667</ScA>
+          <ScR>0.246201321</ScR>
+          <ScG>0.603827357</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -45715,10 +46943,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -45732,10 +46964,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -45749,10 +46985,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>1</condition>
@@ -45766,10 +47006,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -45783,10 +47027,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>3</flash_duration>
         <condition>1</condition>
@@ -47266,10 +48514,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -47457,10 +48709,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -47808,10 +49064,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>
@@ -47825,10 +49085,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -47842,10 +49106,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -47859,10 +49127,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -47876,10 +49148,14 @@
         </se>
         <flash_scope>1</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>2</flash_duration>
         <condition>0</condition>
@@ -48749,10 +50025,14 @@
         </se>
         <flash_scope>0</flash_scope>
         <flash_color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-          <alpha>255</alpha>
+          <A>255</A>
+          <R>255</R>
+          <G>255</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>1</ScG>
+          <ScB>1</ScB>
         </flash_color>
         <flash_duration>5</flash_duration>
         <condition>0</condition>

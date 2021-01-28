@@ -8,6 +8,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Themes/ListBoxItem.xaml"/>
                 <ResourceDictionary Source="GlobalResource.xaml"/>
+                <ResourceDictionary Source="Styles\ListBoxStyle.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

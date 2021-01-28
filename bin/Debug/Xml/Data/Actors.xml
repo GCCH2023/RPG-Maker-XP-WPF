@@ -7,8 +7,8 @@
     <class_id>1</class_id>
     <initial_level>1</initial_level>
     <final_level>99</final_level>
-    <exp_basis>25</exp_basis>
-    <exp_inflation>35</exp_inflation>
+    <exp_basis>10</exp_basis>
+    <exp_inflation>10</exp_inflation>
     <character_name>001-Fighter01</character_name>
     <character_hue>0</character_hue>
     <battler_name>001-Fighter01</battler_name>

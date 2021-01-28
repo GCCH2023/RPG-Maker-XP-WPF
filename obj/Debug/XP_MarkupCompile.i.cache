@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\C#项目\RPG Maker\XP\App.xaml
-10-198153490
+18-1551413937
 
-161762099703
+17459690234
 16-1268677802
-GlobalResource.xaml;MainWindow.xaml;NewWindows\WindowBase.xaml;Scenes\SceneTitle.xaml;Test\AutoTile.xaml;Test\SoundWindow.xaml;Test\TestWindow.xaml;Themes\Generic.xaml;Themes\ListBoxItem.xaml;Themes\Window.xaml;
+Arrows\ArrowEnemy.xaml;GlobalResource.xaml;MainWindow.xaml;NewWindows\WindowBase.xaml;Scenes\SceneBattle.xaml;Scenes\SceneTitle.xaml;Sprites\SpriteBattler.xaml;Styles\ListBoxStyle.xaml;Test\AutoTile.xaml;Test\SoundWindow.xaml;Test\TestWindow.xaml;Themes\AnimationSprite.xaml;Themes\ArrowBase.xaml;Themes\Generic.xaml;Themes\ListBoxItem.xaml;Themes\Window.xaml;Themes\WindowCommand.xaml;Windows\WindowBattleStatus.xaml;
 
-False
+True
 

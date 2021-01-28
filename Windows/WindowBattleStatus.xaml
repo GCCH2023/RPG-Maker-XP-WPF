@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="XP.WindowBattleStatus"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:xp="clr-namespace:XP"
+             d:DesignHeight="160" d:DesignWidth="640" FontFamily="黑体"
+             FontSize="22" Foreground="White">
+    <Border Style="{StaticResource WindowBackground}">
+        <ListBox Padding="16" Name="ActorStatusListBox" Background="Transparent" SelectionMode="Extended"
+                 ItemsSource="{Binding .}">
+            <ListBox.Template>
+                <ControlTemplate TargetType="ListBox">
+                    <Border Margin="{TemplateBinding Padding}">
+                        <ItemsPresenter/>
+                    </Border>
+                </ControlTemplate>
+            </ListBox.Template>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Canvas Width="152" Height="288">
+                        <TextBlock Text="{Binding name}"/>
+
+                        <TextBlock Canvas.Left="4" Canvas.Top="32">HP</TextBlock>
+                        <TextBlock Canvas.Left="76" Canvas.Top="32" Text="{Binding hp}"/>
+
+                        <TextBlock Canvas.Left="4" Canvas.Top="64">SP</TextBlock>
+                        <TextBlock Canvas.Left="76" Canvas.Top="64" Text="{Binding sp}"/>
+
+                        <TextBlock Canvas.Left="4" Canvas.Top="96" Text="{Binding status}"/>
+                    </Canvas>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="FontFamily" Value="黑体"/>
+                    <Setter Property="FontSize" Value="22"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <Border>
+                                    <ContentPresenter/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+    </Border>
+</UserControl>

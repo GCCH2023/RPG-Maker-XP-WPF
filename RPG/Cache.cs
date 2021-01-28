@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using XP.Internal;
 
@@ -22,7 +23,7 @@ namespace XP.RPG
         {
             var path = folder_name + filename;
 
-            if (!cache.ContainsKey(path) || cache[path].is_disposed)
+            if (!cache.ContainsKey(path))   // || cache[path].is_disposed)
             {
                 if (filename != "")
                 {
@@ -46,6 +47,23 @@ namespace XP.RPG
                 return cache[key];
             }
         }
+        static Dictionary<string, BitmapImage> bitmapCache = new Dictionary<string, BitmapImage>();
+        public static BitmapImage LoadBitmap(string folder_name, string filename)
+        {
+            var path = folder_name + filename;
+
+            if (bitmapCache.ContainsKey(path))
+                return bitmapCache[path];
+
+            var name = filename + ".*";
+            var ext = global::System.IO.Path.GetExtension(filename);
+
+            var file = string.IsNullOrEmpty(ext) ? global::System.IO.Directory.GetFiles(folder_name, name)[0] : filename;
+
+            var bitmap = new BitmapImage(new Uri(file, UriKind.Relative));
+            bitmapCache.Add(path, bitmap);
+            return bitmap;
+        }
 
         //模块方法RPG.Cache.animation(filename, hue) 
         //取得动画图像。hue 指定色相变化值。
@@ -53,7 +71,10 @@ namespace XP.RPG
         {
             return load_bitmap("Graphics/Animations/", filename, hue);
         }
-
+        public static BitmapImage Animation(string filename)
+        {
+            return LoadBitmap("Graphics/Animations/", filename);
+        }
         //RPG.Cache.autotile(filename) 
         //取得自动地图元件图像。
         public static Bitmap autotile(string filename)
@@ -71,6 +92,10 @@ namespace XP.RPG
         public static Bitmap battler(string filename, int hue)
         {
             return load_bitmap("Graphics/Battlers/", filename, hue);
+        }
+        public static BitmapImage Battler(string filename)
+        {
+            return LoadBitmap("Graphics/Battlers/", filename);
         }
         //RPG.Cache.character(filename, hue) 
         //取得角色图像。hue 指定色相变化值。
@@ -125,6 +150,10 @@ namespace XP.RPG
         public static Bitmap windowskin(string filename)
         {
             return load_bitmap("Graphics/Windowskins/", filename);
+        }
+        public static BitmapImage WindowSkin(string filename)
+        {
+            return LoadBitmap("Graphics/Windowskins/", filename);
         }
         //RPG.Cache.tile(filename, tile_id, hue) 
         //从图块中取得特定的地图元件。tile_id 指定取得文件的 ID，hue 指定色相变化值。
